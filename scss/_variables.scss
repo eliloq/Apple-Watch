@@ -1,0 +1,29 @@
+//  media query varibale
+$xl: 1200px;
+$lg: 992px;
+$md: 768px;
+$sm: 540px;
+
+// variable
+$width: 100%;
+$width-2: 95%;
+$width-3: 750px;
+$blue: #0077ed;
+$lightBlue: #1081f3;
+$whiteSmoke: #f5f5f7;
+
+//  mixin functions
+@mixin constProperties($width, $height, $display, $bgColor) {
+  width: $width;
+  height: $height;
+  display: $display;
+  background-color: $bgColor;
+}
+
+//  mixin functions
+@mixin colorPalets($width, $height, $radius, $bgColor) {
+  width: $width;
+  height: $height;
+  border-radius: $radius;
+  background-color: $bgColor;
+}
