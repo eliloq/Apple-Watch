@@ -410,7 +410,18 @@
       text-align: center;
       justify-content: center;
       grid-template-columns: repeat(3, auto);
-      grid-template-areas: "se-device s9-device ultra-device" "se-device-cta s9-device-cta ultra-device-cta" "se-case-size s9-case-size ultra-case-size" "se-carbon-neutral s9-carbon-neutral ultra-carbon-neutral" "se-retina s9-retina ultra-retina" "se-chip s9-chip ultra-chip" "se-heart-rate s9-heart-rate ultra-heart-rate" "se-temperature s9-temperature ultra-temperature" "se-sos s9-sos ultra-sos" "se-water-resistant s9-water-resistant ultra-water-resistant" "se-gps-cellular s9-gps-cellular ultra-gps-cellular" "se-battery s9-battery ultra-battery"; }
+      grid-template-areas: "se-device s9-device ultra-device"
+ "se-device-cta s9-device-cta ultra-device-cta"
+ "se-case-size s9-case-size ultra-case-size"
+ "se-carbon-neutral s9-carbon-neutral ultra-carbon-neutral"
+ "se-retina s9-retina ultra-retina"
+ "se-chip s9-chip ultra-chip"
+ "se-heart-rate s9-heart-rate ultra-heart-rate"
+ "se-temperature s9-temperature ultra-temperature"
+ "se-sos s9-sos ultra-sos"
+ "se-water-resistant s9-water-resistant ultra-water-resistant"
+ "se-gps-cellular s9-gps-cellular ultra-gps-cellular"
+ "se-battery s9-battery ultra-battery"; }
       div.wrapper > div.section > div.parts > div.se-device {
         grid-area: se-device;
         display: flex;
@@ -1380,7 +1391,18 @@
       text-align: center;
       justify-content: center;
       grid-template-columns: repeat(3, auto);
-      grid-template-areas: "se-device s9-device ultra-device" "se-device-cta s9-device-cta ultra-device-cta" "se-case-size s9-case-size ultra-case-size" "se-carbon-neutral s9-carbon-neutral ultra-carbon-neutral" "se-retina s9-retina ultra-retina" "se-chip s9-chip ultra-chip" "se-heart-rate s9-heart-rate ultra-heart-rate" "se-temperature s9-temperature ultra-temperature" "se-sos s9-sos ultra-sos" "se-water-resistant s9-water-resistant ultra-water-resistant" "se-gps-cellular s9-gps-cellular ultra-gps-cellular" "se-battery s9-battery ultra-battery"; }
+      grid-template-areas: "se-device s9-device ultra-device"
+ "se-device-cta s9-device-cta ultra-device-cta"
+ "se-case-size s9-case-size ultra-case-size"
+ "se-carbon-neutral s9-carbon-neutral ultra-carbon-neutral"
+ "se-retina s9-retina ultra-retina"
+ "se-chip s9-chip ultra-chip"
+ "se-heart-rate s9-heart-rate ultra-heart-rate"
+ "se-temperature s9-temperature ultra-temperature"
+ "se-sos s9-sos ultra-sos"
+ "se-water-resistant s9-water-resistant ultra-water-resistant"
+ "se-gps-cellular s9-gps-cellular ultra-gps-cellular"
+ "se-battery s9-battery ultra-battery"; }
       div.wrapper > div.section > div.parts > div.se-device {
         grid-area: se-device;
         display: flex;
@@ -2407,7 +2429,18 @@
       text-align: center;
       justify-content: center;
       grid-template-columns: repeat(3, auto);
-      grid-template-areas: "se-device s9-device ultra-device" "se-device-cta s9-device-cta ultra-device-cta" "se-case-size s9-case-size ultra-case-size" "se-carbon-neutral s9-carbon-neutral ultra-carbon-neutral" "se-retina s9-retina ultra-retina" "se-chip s9-chip ultra-chip" "se-heart-rate s9-heart-rate ultra-heart-rate" "se-temperature s9-temperature ultra-temperature" "se-sos s9-sos ultra-sos" "se-water-resistant s9-water-resistant ultra-water-resistant" "se-gps-cellular s9-gps-cellular ultra-gps-cellular" "se-battery s9-battery ultra-battery"; }
+      grid-template-areas: "se-device s9-device ultra-device"
+ "se-device-cta s9-device-cta ultra-device-cta"
+ "se-case-size s9-case-size ultra-case-size"
+ "se-carbon-neutral s9-carbon-neutral ultra-carbon-neutral"
+ "se-retina s9-retina ultra-retina"
+ "se-chip s9-chip ultra-chip"
+ "se-heart-rate s9-heart-rate ultra-heart-rate"
+ "se-temperature s9-temperature ultra-temperature"
+ "se-sos s9-sos ultra-sos"
+ "se-water-resistant s9-water-resistant ultra-water-resistant"
+ "se-gps-cellular s9-gps-cellular ultra-gps-cellular"
+ "se-battery s9-battery ultra-battery"; }
       div.wrapper > div.section > div.parts > div.se-device {
         grid-area: se-device;
         display: flex;
@@ -3438,7 +3471,28 @@
       text-align: center;
       justify-content: center;
       grid-template-columns: repeat(2, auto);
-      grid-template-areas: "se-device s9-device" "se-case-size s9-case-size" "se-carbon-neutral s9-carbon-neutral" "se-retina s9-retina" "se-chip s9-chip" "se-heart-rate s9-heart-rate" "se-temperature s9-temperature" "se-sos s9-sos" "se-water-resistant s9-water-resistant" "se-gps-cellular s9-gps-cellular" "se-battery s9-battery" "ultra-device ." "ultra-case-size ." "ultra-carbon-neutral ." "ultra-retina ." "ultra-chip ." "ultra-heart-rate ." "ultra-temperature ." "ultra-sos ." "ultra-water-resistant ." "ultra-gps-cellular ." "ultra-battery."; }
+      grid-template-areas: "se-device s9-device"
+ "se-case-size s9-case-size"
+ "se-carbon-neutral s9-carbon-neutral"
+ "se-retina s9-retina"
+ "se-chip s9-chip"
+ "se-heart-rate s9-heart-rate"
+ "se-temperature s9-temperature"
+ "se-sos s9-sos"
+ "se-water-resistant s9-water-resistant"
+ "se-gps-cellular s9-gps-cellular"
+ "se-battery s9-battery"
+ "ultra-device ."
+ "ultra-case-size ."
+ "ultra-carbon-neutral ."
+ "ultra-retina ."
+ "ultra-chip ."
+ "ultra-heart-rate ."
+ "ultra-temperature ."
+ "ultra-sos ."
+ "ultra-water-resistant ."
+ "ultra-gps-cellular ."
+ "ultra-battery."; }
       div.wrapper > div.section > div.parts > div.se-device {
         grid-area: se-device;
         display: flex;
@@ -4423,16 +4477,39 @@
     justify-content: center;
     align-items: center; }
     div.wrapper > div.section > h2 {
-      font-size: 25px;
-      margin: 50px 0; }
+      width: 90%;
+      font-size: 30px;
+      margin: 50px 0;
+      text-align: center; }
     div.wrapper > div.section > div.parts {
-      width: 100%;
+      width: 90%;
       display: grid;
       gap: 55px;
       text-align: center;
       justify-content: center;
       grid-template-columns: repeat(2, auto);
-      grid-template-areas: "se-device s9-device" "se-case-size s9-case-size" "se-carbon-neutral s9-carbon-neutral" "se-retina s9-retina" "se-chip s9-chip" "se-heart-rate s9-heart-rate" "se-temperature s9-temperature" "se-sos s9-sos" "se-water-resistant s9-water-resistant" "se-gps-cellular s9-gps-cellular" "se-battery s9-battery" "ultra-device ." "ultra-case-size ." "ultra-carbon-neutral ." "ultra-retina ." "ultra-chip ." "ultra-heart-rate ." "ultra-temperature ." "ultra-sos ." "ultra-water-resistant ." "ultra-gps-cellular ." "ultra-battery."; }
+      grid-template-areas: "se-device s9-device"
+ "se-case-size s9-case-size"
+ "se-carbon-neutral s9-carbon-neutral"
+ "se-retina s9-retina"
+ "se-chip s9-chip"
+ "se-heart-rate s9-heart-rate"
+ "se-temperature s9-temperature"
+ "se-sos s9-sos"
+ "se-water-resistant s9-water-resistant"
+ "se-gps-cellular s9-gps-cellular"
+ "se-battery s9-battery"
+ "ultra-device ."
+ "ultra-case-size ."
+ "ultra-carbon-neutral ."
+ "ultra-retina ."
+ "ultra-chip ."
+ "ultra-heart-rate ."
+ "ultra-temperature ."
+ "ultra-sos ."
+ "ultra-water-resistant ."
+ "ultra-gps-cellular ."
+ "ultra-battery."; }
       div.wrapper > div.section > div.parts > div.se-device {
         grid-area: se-device;
         display: flex;
