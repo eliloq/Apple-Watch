@@ -5971,7 +5971,7 @@
 
         // Text under the watch bar
         > div.txt {
-          @include constProperties($width, 44px, flex, #333333);
+          @include constProperties($width, 44px, flex, $blue);
           justify-content: center;
           align-items: center;
 
@@ -5981,7 +5981,7 @@
             margin-right: 5px;
           }
           > a {
-            color: $lightBlue;
+            color: white;
             font-size: 15px;
 
             &:hover {
