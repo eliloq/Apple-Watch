@@ -1002,6 +1002,107 @@
       background-image: url(../img/banner_watch__cj4okm1rm282_large.jpg);
       background-position: center;
       background-repeat: no-repeat;
+      background-size: contain; }
+  div.wrapper > div.cont-6 {
+    width: 95%;
+    height: 800px;
+    display: flex;
+    background-color: #f5f5f7;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px auto; }
+    div.wrapper > div.cont-6 > div.first {
+      width: 500px;
+      height: 100%;
+      display: flex;
+      background-color: transparent;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 20px; }
+      div.wrapper > div.cont-6 > div.first > img {
+        width: 125px; }
+      div.wrapper > div.cont-6 > div.first > h1 {
+        width: 100%;
+        font-size: 45px;
+        color: black;
+        text-align: center; }
+      div.wrapper > div.cont-6 > div.first > span:nth-of-type(1) {
+        font-size: 23px;
+        color: black;
+        text-align: center;
+        font-weight: 600; }
+      div.wrapper > div.cont-6 > div.first > span:nth-of-type(2) {
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        font-weight: 600; }
+      div.wrapper > div.cont-6 > div.first > div > a:nth-of-type(1) {
+        color: #0077ed;
+        font-size: 16.5px;
+        padding: 8px 15px;
+        border-radius: 25px;
+        border: 1px solid #0077ed;
+        margin-right: 15px; }
+      div.wrapper > div.cont-6 > div.first > div > a:nth-of-type(2) {
+        color: #0077ed;
+        font-size: 16.5px; }
+        div.wrapper > div.cont-6 > div.first > div > a:nth-of-type(2):hover {
+          text-decoration: underline; }
+        div.wrapper > div.cont-6 > div.first > div > a:nth-of-type(2) > i {
+          font-size: 10px;
+          color: #1081f3;
+          padding-right: 5px; }
+    div.wrapper > div.cont-6 > div.second {
+      width: 680px;
+      height: 100%;
+      background-image: url(../img/family_setup__f5mzp4ts5n2a_large.jpg);
+      background-position: center left;
+      background-repeat: no-repeat; }
+  div.wrapper > div.cont-7 {
+    width: 95%;
+    height: 580px;
+    display: flex;
+    background-color: #f5f5f7;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    gap: 5%; }
+    div.wrapper > div.cont-7 > div.second {
+      width: fitcontent;
+      height: 100%;
+      display: flex;
+      background-color: transparent;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 15px; }
+      div.wrapper > div.cont-7 > div.second > img {
+        width: 165px; }
+      div.wrapper > div.cont-7 > div.second > span {
+        font-size: 22px;
+        color: black;
+        text-align: center;
+        line-height: 30px; }
+      div.wrapper > div.cont-7 > div.second > div > a {
+        color: #0077ed;
+        font-size: 16.5px; }
+        div.wrapper > div.cont-7 > div.second > div > a:hover {
+          text-decoration: underline; }
+        div.wrapper > div.cont-7 > div.second > div > a > sup {
+          font-size: 10px; }
+      div.wrapper > div.cont-7 > div.second > div > i {
+        font-size: 10px;
+        color: #1081f3;
+        padding-right: 15px; }
+    div.wrapper > div.cont-7 > div.first {
+      width: 525px;
+      height: 100%;
+      background-image: url(../img/fitness_plus__fzqddmq9dqai_large.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
       background-size: contain; } }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -1981,6 +2082,107 @@
       width: 350px;
       height: 100%;
       background-image: url(../img/banner_watch__cj4okm1rm282_large.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain; }
+  div.wrapper > div.cont-6 {
+    width: 95%;
+    height: 800px;
+    display: flex;
+    background-color: #f5f5f7;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px auto; }
+    div.wrapper > div.cont-6 > div.first {
+      width: 500px;
+      height: 100%;
+      display: flex;
+      background-color: transparent;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 20px; }
+      div.wrapper > div.cont-6 > div.first > img {
+        width: 125px; }
+      div.wrapper > div.cont-6 > div.first > h1 {
+        width: 100%;
+        font-size: 45px;
+        color: black;
+        text-align: center; }
+      div.wrapper > div.cont-6 > div.first > span:nth-of-type(1) {
+        font-size: 23px;
+        color: black;
+        text-align: center;
+        font-weight: 600; }
+      div.wrapper > div.cont-6 > div.first > span:nth-of-type(2) {
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        font-weight: 600; }
+      div.wrapper > div.cont-6 > div.first > div > a:nth-of-type(1) {
+        color: #0077ed;
+        font-size: 16.5px;
+        padding: 8px 15px;
+        border-radius: 25px;
+        border: 1px solid #0077ed;
+        margin-right: 15px; }
+      div.wrapper > div.cont-6 > div.first > div > a:nth-of-type(2) {
+        color: #0077ed;
+        font-size: 16.5px; }
+        div.wrapper > div.cont-6 > div.first > div > a:nth-of-type(2):hover {
+          text-decoration: underline; }
+        div.wrapper > div.cont-6 > div.first > div > a:nth-of-type(2) > i {
+          font-size: 10px;
+          color: #1081f3;
+          padding-right: 5px; }
+    div.wrapper > div.cont-6 > div.second {
+      width: 680px;
+      height: 100%;
+      background-image: url(../img/family_setup__f5mzp4ts5n2a_large.jpg);
+      background-position: center left;
+      background-repeat: no-repeat; }
+  div.wrapper > div.cont-7 {
+    width: 95%;
+    height: 580px;
+    display: flex;
+    background-color: #f5f5f7;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    gap: 5%; }
+    div.wrapper > div.cont-7 > div.second {
+      width: fitcontent;
+      height: 100%;
+      display: flex;
+      background-color: transparent;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 15px; }
+      div.wrapper > div.cont-7 > div.second > img {
+        width: 165px; }
+      div.wrapper > div.cont-7 > div.second > span {
+        font-size: 22px;
+        color: black;
+        text-align: center;
+        line-height: 30px; }
+      div.wrapper > div.cont-7 > div.second > div > a {
+        color: #0077ed;
+        font-size: 16.5px; }
+        div.wrapper > div.cont-7 > div.second > div > a:hover {
+          text-decoration: underline; }
+        div.wrapper > div.cont-7 > div.second > div > a > sup {
+          font-size: 10px; }
+      div.wrapper > div.cont-7 > div.second > div > i {
+        font-size: 10px;
+        color: #1081f3;
+        padding-right: 15px; }
+    div.wrapper > div.cont-7 > div.first {
+      width: 525px;
+      height: 100%;
+      background-image: url(../img/fitness_plus__fzqddmq9dqai_large.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain; } }
@@ -2978,7 +3180,7 @@
           color: #0077ed;
           font-size: 12px;
           margin: 0 25px 0 10px; }
-  div.wrapper > div.cont-5 {
+div.wrapper > div.cont-5 {
     width: 750px;
     height: 400px;
     display: flex;
@@ -3021,6 +3223,113 @@
       width: 210px;
       height: 100%;
       background-image: url(../img/banner_watch__cj4okm1rm282_large.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain; }
+  div.wrapper > div.cont-6 {
+    width: 750px;
+    height: 450px;
+    display: flex;
+    background-color: #f5f5f7;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px auto; }
+    div.wrapper > div.cont-6 > div.first {
+      width: fitcontent;
+      height: 100%;
+      display: flex;
+      background-color: transparent;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 15px; }
+      div.wrapper > div.cont-6 > div.first > h1 {
+        width: 100%;
+        font-size: 30px;
+        color: black;
+        text-align: center; }
+      div.wrapper > div.cont-6 > div.first > span:nth-of-type(1) {
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        font-weight: 600; }
+      div.wrapper > div.cont-6 > div.first > span:nth-of-type(2) {
+        font-size: 16.5px;
+        color: black;
+        text-align: center;
+        font-weight: 600; }
+      div.wrapper > div.cont-6 > div.first > div {
+        height: 25%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 15px; }
+        div.wrapper > div.cont-6 > div.first > div > a:nth-of-type(1) {
+          width: fit-content;
+          text-align: center;
+          color: #0077ed;
+          font-size: 16.5px;
+          padding: 6.5px 15px;
+          border-radius: 25px;
+          border: 1px solid #0077ed; }
+        div.wrapper > div.cont-6 > div.first > div > a:nth-of-type(2) {
+          color: #0077ed;
+          font-size: 16.5px; }
+          div.wrapper > div.cont-6 > div.first > div > a:nth-of-type(2):hover {
+            text-decoration: underline; }
+          div.wrapper > div.cont-6 > div.first > div > a:nth-of-type(2) > i {
+            font-size: 10px;
+            color: #1081f3;
+            padding-right: 5px; }
+    div.wrapper > div.cont-6 > div.second {
+      width: 350px;
+      height: 100%;
+      background-image: url(../img/family_setup__f5mzp4ts5n2a_large.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain; }
+  div.wrapper > div.cont-7 {
+    width: 750px;
+    height: 350px;
+    display: flex;
+    background-color: #f5f5f7;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px auto; }
+    div.wrapper > div.cont-7 > div.second {
+      width: 45%;
+      height: 100%;
+      display: flex;
+      background-color: transparent;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 15px; }
+      div.wrapper > div.cont-7 > div.second > img {
+        width: 150px; }
+      div.wrapper > div.cont-7 > div.second > span {
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        line-height: 30px; }
+      div.wrapper > div.cont-7 > div.second > div > a {
+        color: #0077ed;
+        font-size: 16.5px; }
+        div.wrapper > div.cont-7 > div.second > div > a:hover {
+          text-decoration: underline; }
+        div.wrapper > div.cont-7 > div.second > div > a > sup {
+          font-size: 10px; }
+      div.wrapper > div.cont-7 > div.second > div > i {
+        font-size: 10px;
+        color: #1081f3;
+        padding-right: 15px; }
+    div.wrapper > div.cont-7 > div.first {
+      width: 300px;
+      height: 100%;
+      background-image: url(../img/fitness_plus__fzqddmq9dqai_large.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain; } }
@@ -4038,7 +4347,163 @@
         div.wrapper > div.section > div.links > a > i {
           color: #0077ed;
           font-size: 12px;
-          margin: 0 25px 0 10px; } }
+          margin: 0 25px 0 10px; }
+ div.wrapper > div.cont-5 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: #f5f5f7;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px auto; }
+    div.wrapper > div.cont-5 > div.second {
+      width: 100%;
+      height: 30%;
+      display: flex;
+      background-color: transparent;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      order: 1; }
+      div.wrapper > div.cont-5 > div.second > h1 {
+        width: 100%;
+        font-size: 25px;
+        color: black;
+        text-align: center; }
+      div.wrapper > div.cont-5 > div.second > span {
+        width: 250px;
+        font-size: 18px;
+        color: black;
+        text-align: center; }
+      div.wrapper > div.cont-5 > div.second > div > a {
+        color: #0077ed;
+        font-size: 16.5px; }
+        div.wrapper > div.cont-5 > div.second > div > a:hover {
+          text-decoration: underline; }
+      div.wrapper > div.cont-5 > div.second > div > i {
+        font-size: 12px;
+        color: #1081f3;
+        padding-right: 5px; }
+    div.wrapper > div.cont-5 > div.first {
+      order: 2;
+      width: 100%;
+      height: 60%;
+      background-image: url(../img/banner_watch__cj4okm1rm282_large.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain; }
+  div.wrapper > div.cont-6 {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    background-color: #f5f5f7;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px auto; }
+    div.wrapper > div.cont-6 > div.first {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      background-color: transparent;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      order: 2; }
+      div.wrapper > div.cont-6 > div.first > h1 {
+        width: 100%;
+        font-size: 25px;
+        color: black;
+        text-align: center; }
+      div.wrapper > div.cont-6 > div.first > span:nth-of-type(1) {
+        font-size: 15px;
+        color: black;
+        text-align: center;
+        font-weight: 600; }
+      div.wrapper > div.cont-6 > div.first > span:nth-of-type(2) {
+        font-size: 16.5px;
+        color: black;
+        text-align: center;
+        font-weight: 600; }
+      div.wrapper > div.cont-6 > div.first > div {
+        height: 35%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 15px; }
+        div.wrapper > div.cont-6 > div.first > div > a:nth-of-type(1) {
+          color: #0077ed;
+          font-size: 16.5px;
+          padding: 8px 15px;
+          border-radius: 25px;
+          border: 1px solid #0077ed; }
+        div.wrapper > div.cont-6 > div.first > div > a:nth-of-type(2) {
+          color: #0077ed;
+          font-size: 16.5px; }
+          div.wrapper > div.cont-6 > div.first > div > a:nth-of-type(2):hover {
+            text-decoration: underline; }
+          div.wrapper > div.cont-6 > div.first > div > a:nth-of-type(2) > i {
+            font-size: 10px;
+            color: #1081f3;
+            padding-right: 5px; }
+    div.wrapper > div.cont-6 > div.second {
+      order: 1;
+      width: 100%;
+      height: 35%;
+      background-image: url(../img/family_setup__f5mzp4ts5n2a_large.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain; }
+  div.wrapper > div.cont-7 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: #f5f5f7;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px auto; }
+    div.wrapper > div.cont-7 > div.second {
+      width: 100%;
+      height: 30%;
+      display: flex;
+      background-color: transparent;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      order: 1; }
+      div.wrapper > div.cont-7 > div.second > img {
+        width: 130px; }
+      div.wrapper > div.cont-7 > div.second > span {
+        font-size: 18px;
+        color: black;
+        text-align: center;
+        line-height: 25px; }
+      div.wrapper > div.cont-7 > div.second > div > a {
+        color: #0077ed;
+        font-size: 16.5px; }
+        div.wrapper > div.cont-7 > div.second > div > a:hover {
+          text-decoration: underline; }
+        div.wrapper > div.cont-7 > div.second > div > a > sup {
+          font-size: 10px; }
+      div.wrapper > div.cont-7 > div.second > div > i {
+        font-size: 10px;
+        color: #1081f3;
+        padding-right: 15px; }
+    div.wrapper > div.cont-7 > div.first {
+      order: 2;
+      width: 100%;
+      height: 65%;
+      background-image: url(../img/fitness_plus__fzqddmq9dqai_large.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain; } }
+
 
 @media screen and (max-width: 540px) {
   div.wrapper > div.vertical-menu {
@@ -5055,7 +5520,162 @@
         div.wrapper > div.section > div.links > a > i {
           color: #0077ed;
           font-size: 12px;
-          margin: 0 25px 0 10px; } }
+          margin: 0 25px 0 10px; } 
+  div.wrapper > div.cont-5 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: #f5f5f7;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px auto; }
+    div.wrapper > div.cont-5 > div.second {
+      width: 100%;
+      height: 30%;
+      display: flex;
+      background-color: transparent;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      order: 1; }
+      div.wrapper > div.cont-5 > div.second > h1 {
+        width: 100%;
+        font-size: 25px;
+        color: black;
+        text-align: center; }
+      div.wrapper > div.cont-5 > div.second > span {
+        width: 250px;
+        font-size: 18px;
+        color: black;
+        text-align: center; }
+      div.wrapper > div.cont-5 > div.second > div > a {
+        color: #0077ed;
+        font-size: 16.5px; }
+        div.wrapper > div.cont-5 > div.second > div > a:hover {
+          text-decoration: underline; }
+      div.wrapper > div.cont-5 > div.second > div > i {
+        font-size: 12px;
+        color: #1081f3;
+        padding-right: 5px; }
+    div.wrapper > div.cont-5 > div.first {
+      order: 2;
+      width: 100%;
+      height: 60%;
+      background-image: url(../img/banner_watch__cj4okm1rm282_large.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain; }
+  div.wrapper > div.cont-6 {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    background-color: #f5f5f7;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px auto; }
+    div.wrapper > div.cont-6 > div.first {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      background-color: transparent;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      order: 2; }
+      div.wrapper > div.cont-6 > div.first > h1 {
+        width: 100%;
+        font-size: 25px;
+        color: black;
+        text-align: center; }
+      div.wrapper > div.cont-6 > div.first > span:nth-of-type(1) {
+        font-size: 15px;
+        color: black;
+        text-align: center;
+        font-weight: 600; }
+      div.wrapper > div.cont-6 > div.first > span:nth-of-type(2) {
+        font-size: 16.5px;
+        color: black;
+        text-align: center;
+        font-weight: 600; }
+      div.wrapper > div.cont-6 > div.first > div {
+        height: 35%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 15px; }
+        div.wrapper > div.cont-6 > div.first > div > a:nth-of-type(1) {
+          color: #0077ed;
+          font-size: 16.5px;
+          padding: 8px 15px;
+          border-radius: 25px;
+          border: 1px solid #0077ed; }
+        div.wrapper > div.cont-6 > div.first > div > a:nth-of-type(2) {
+          color: #0077ed;
+          font-size: 16.5px; }
+          div.wrapper > div.cont-6 > div.first > div > a:nth-of-type(2):hover {
+            text-decoration: underline; }
+          div.wrapper > div.cont-6 > div.first > div > a:nth-of-type(2) > i {
+            font-size: 10px;
+            color: #1081f3;
+            padding-right: 5px; }
+    div.wrapper > div.cont-6 > div.second {
+      order: 1;
+      width: 100%;
+      height: 35%;
+      background-image: url(../img/family_setup__f5mzp4ts5n2a_large.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain; }
+  div.wrapper > div.cont-7 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: #f5f5f7;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px auto; }
+    div.wrapper > div.cont-7 > div.second {
+      width: 100%;
+      height: 30%;
+      display: flex;
+      background-color: transparent;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      order: 1; }
+      div.wrapper > div.cont-7 > div.second > img {
+        width: 130px; }
+      div.wrapper > div.cont-7 > div.second > span {
+        font-size: 18px;
+        color: black;
+        text-align: center;
+        line-height: 25px; }
+      div.wrapper > div.cont-7 > div.second > div > a {
+        color: #0077ed;
+        font-size: 16.5px; }
+        div.wrapper > div.cont-7 > div.second > div > a:hover {
+          text-decoration: underline; }
+        div.wrapper > div.cont-7 > div.second > div > a > sup {
+          font-size: 10px; }
+      div.wrapper > div.cont-7 > div.second > div > i {
+        font-size: 10px;
+        color: #1081f3;
+        padding-right: 15px; }
+    div.wrapper > div.cont-7 > div.first {
+      order: 2;
+      width: 100%;
+      height: 65%;
+      background-image: url(../img/fitness_plus__fzqddmq9dqai_large.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain; } }
 
 * {
   margin: 0;
