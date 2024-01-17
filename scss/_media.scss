@@ -6251,12 +6251,14 @@
           align-items: center;
 
           > h2 {
-            font-size: 25px;
+            width: 90%;
+            font-size: 30px;
             margin: 50px 0;
+            text-align: center;
           }
 
           > div.parts {
-            width: 100%;
+            width: 90%;
             display: grid;
             gap: 55px;
             text-align: center;
