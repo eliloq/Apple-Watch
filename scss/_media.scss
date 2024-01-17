@@ -1356,8 +1356,7 @@
             }
           }
         }
-
-        // Container number 5
+ // Container number 5
         > div.cont-5 {
           @include constProperties($width-2, 600px, flex, $whiteSmoke);
           flex-flow: row nowrap;
@@ -1411,6 +1410,143 @@
             background-size: contain;
           }
         }
+
+        // Container number 6
+        > div.cont-6 {
+          @include constProperties($width-2, 800px, flex, $whiteSmoke);
+          flex-flow: row nowrap;
+          justify-content: space-evenly;
+          align-items: center;
+          margin: 30px auto;
+
+   
+
+          > div.first {
+            @include constProperties(500px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            > img {
+              width: 125px;
+            }
+            > h1 {
+              width: 100%;
+              font-size: 45px;
+              color: black;
+              text-align: center;
+            }
+            > span:nth-of-type(1) {
+              font-size: 23px;
+              color: black;
+              text-align: center;
+              font-weight: 600;
+            }
+            > span:nth-of-type(2) {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              font-weight: 600;
+            }
+            > div {
+              >a:nth-of-type(1)
+              {
+                color: $blue;
+                font-size: 16.5px;
+                padding: 8px 15px;
+                border-radius: 25px;
+                border: 1px solid $blue;
+                margin-right: 15px;
+
+              }
+              > a:nth-of-type(2) {
+                color: $blue;
+                font-size: 16.5px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+                > i {
+                  font-size: 10px;
+                  color: $lightBlue;
+                  padding-right: 5px;
+                }
+  
+              }
+
+    
+
+           
+            }
+          }
+          > div.second {
+            width:680px;
+            height: 100%;
+            background-image: url(../img/family_setup__f5mzp4ts5n2a_large.jpg);
+            background-position: center left;
+            background-repeat: no-repeat;
+          }
+        }
+
+        // Container number 7
+        > div.cont-7 {
+          @include constProperties($width-2, 580px, flex, $whiteSmoke);
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center;
+          margin: 30px auto;
+          gap: 5%;
+
+          > div.second {
+            @include constProperties(fitcontent, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+
+            > img {
+              width: 165px;
+            }
+
+            > span {
+              font-size: 22px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > div {
+  
+              > a {
+                color: $blue;
+                font-size: 16.5px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                >sup{
+                  font-size: 10px;
+                }
+              }
+
+              > i {
+                font-size: 10px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+          > div.first {
+            width: 525px;
+            height: 100%;
+            background-image: url(../img/fitness_plus__fzqddmq9dqai_large.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+        }
+     
       }
     }
   } @else if $value==$lg {
@@ -2820,6 +2956,132 @@
             background-size: contain;
           }
         }
+
+        // Container number 6
+        > div.cont-6 {
+          @include constProperties($width-2, 800px, flex, $whiteSmoke);
+          flex-flow: row nowrap;
+          justify-content: space-evenly;
+          align-items: center;
+          margin: 30px auto;
+
+          > div.first {
+            @include constProperties(500px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            > img {
+              width: 125px;
+            }
+            > h1 {
+              width: 100%;
+              font-size: 45px;
+              color: black;
+              text-align: center;
+            }
+            > span:nth-of-type(1) {
+              font-size: 23px;
+              color: black;
+              text-align: center;
+              font-weight: 600;
+            }
+            > span:nth-of-type(2) {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              font-weight: 600;
+            }
+            > div {
+              > a:nth-of-type(1) {
+                color: $blue;
+                font-size: 16.5px;
+                padding: 8px 15px;
+                border-radius: 25px;
+                border: 1px solid $blue;
+                margin-right: 15px;
+              }
+              > a:nth-of-type(2) {
+                color: $blue;
+                font-size: 16.5px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+                > i {
+                  font-size: 10px;
+                  color: $lightBlue;
+                  padding-right: 5px;
+                }
+              }
+            }
+          }
+          > div.second {
+            width: 680px;
+            height: 100%;
+            background-image: url(../img/family_setup__f5mzp4ts5n2a_large.jpg);
+            background-position: center left;
+            background-repeat: no-repeat;
+          }
+        }
+
+        // Container number 7
+        > div.cont-7 {
+          @include constProperties($width-2, 580px, flex, $whiteSmoke);
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center;
+          margin: 30px auto;
+          gap: 5%;
+
+          > div.second {
+            @include constProperties(fitcontent, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+
+            > img {
+              width: 165px;
+            }
+
+            > span {
+              font-size: 22px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > div {
+              > a {
+                color: $blue;
+                font-size: 16.5px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > sup {
+                  font-size: 10px;
+                }
+              }
+
+              > i {
+                font-size: 10px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+          > div.first {
+            width: 525px;
+            height: 100%;
+            background-image: url(../img/fitness_plus__fzqddmq9dqai_large.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+        }
       }
     }
   } @else if $value==$md {
@@ -4199,6 +4461,7 @@
             }
           }
         }
+ 
         // Container number 5
         > div.cont-5 {
           @include constProperties($width-3, 400px, flex, $whiteSmoke);
@@ -4250,6 +4513,136 @@
             width: 210px;
             height: 100%;
             background-image: url(../img/banner_watch__cj4okm1rm282_large.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+        }
+
+        // Container number 6
+        > div.cont-6 {
+          @include constProperties($width-3, 450px, flex, $whiteSmoke);
+          flex-flow: row nowrap;
+          justify-content: space-evenly;
+          align-items: center;
+          margin: 30px auto;
+
+          > div.first {
+            @include constProperties(fitcontent, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+
+            > h1 {
+              width: 100%;
+              font-size: 30px;
+              color: black;
+              text-align: center;
+            }
+            > span:nth-of-type(1) {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              font-weight: 600;
+            }
+            > span:nth-of-type(2) {
+              font-size: 16.5px;
+              color: black;
+              text-align: center;
+              font-weight: 600;
+            }
+            > div {
+              height: 25%;
+              display: flex;
+              flex-flow: column nowrap;
+              align-items: center;
+              justify-content: center;
+              gap: 15px;
+
+              > a:nth-of-type(1) {
+                width: fit-content;
+                text-align: center;
+                color: $blue;
+                font-size: 16.5px;
+                padding: 6.5px 15px;
+                border-radius: 25px;
+                border: 1px solid $blue;
+              }
+              > a:nth-of-type(2) {
+                color: $blue;
+                font-size: 16.5px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+                > i {
+                  font-size: 10px;
+                  color: $lightBlue;
+                  padding-right: 5px;
+                }
+              }
+            }
+          }
+          > div.second {
+            width: 350px;
+            height: 100%;
+            background-image: url(../img/family_setup__f5mzp4ts5n2a_large.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+        }
+        // Container number 7
+        > div.cont-7 {
+          @include constProperties($width-3, 350px, flex, $whiteSmoke);
+          flex-flow: row nowrap;
+          justify-content: space-evenly;
+          align-items: center;
+          margin: 30px auto;
+
+          > div.second {
+            @include constProperties(45%, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+
+            > img {
+              width: 150px;
+            }
+
+            > span {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > div {
+              > a {
+                color: $blue;
+                font-size: 16.5px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > sup {
+                  font-size: 10px;
+                }
+              }
+
+              > i {
+                font-size: 10px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+          > div.first {
+            width: 300px;
+            height: 100%;
+            background-image: url(../img/fitness_plus__fzqddmq9dqai_large.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
@@ -5655,6 +6048,196 @@
             }
           }
         }
+
+        // Container number 5
+        > div.cont-5 {
+          @include constProperties($width, 500px, flex, $whiteSmoke);
+          flex-flow: column nowrap;
+          justify-content: space-evenly;
+          align-items: center;
+          margin: 30px auto;
+
+          > div.second {
+            @include constProperties(100%, 30%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            order: 1;
+
+            > h1 {
+              width: 100%;
+              font-size: 25px;
+              color: black;
+              text-align: center;
+            }
+            > span {
+              width: 250px;
+              font-size: 18px;
+              color: black;
+              text-align: center;
+            }
+            > div {
+              > a {
+                color: $blue;
+                font-size: 16.5px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 5px;
+              }
+            }
+          }
+          > div.first {
+            order: 2;
+            width: 100%;
+            height: 60%;
+            background-image: url(../img/banner_watch__cj4okm1rm282_large.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+        }
+
+        // Container number 6
+        > div.cont-6 {
+          @include constProperties($width, 650px, flex, $whiteSmoke);
+          flex-flow: column nowrap;
+          justify-content: space-evenly;
+          align-items: center;
+          margin: 30px auto;
+
+          > div.first {
+            @include constProperties(100%, 50%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            order: 2;
+
+            > h1 {
+              width: 100%;
+              font-size: 25px;
+              color: black;
+              text-align: center;
+            }
+            > span:nth-of-type(1) {
+              font-size: 15px;
+              color: black;
+              text-align: center;
+              font-weight: 600;
+            }
+            > span:nth-of-type(2) {
+              font-size: 16.5px;
+              color: black;
+              text-align: center;
+              font-weight: 600;
+            }
+            > div {
+              height: 35%;
+              display: flex;
+              flex-flow: column nowrap;
+              align-items: center;
+              justify-content: center;
+              gap: 15px;
+
+              > a:nth-of-type(1) {
+                color: $blue;
+                font-size: 16.5px;
+                padding: 8px 15px;
+                border-radius: 25px;
+                border: 1px solid $blue;
+              }
+              > a:nth-of-type(2) {
+                color: $blue;
+                font-size: 16.5px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+                > i {
+                  font-size: 10px;
+                  color: $lightBlue;
+                  padding-right: 5px;
+                }
+              }
+            }
+          }
+          > div.second {
+            order: 1;
+            width: 100%;
+            height: 35%;
+            background-image: url(../img/family_setup__f5mzp4ts5n2a_large.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+        }
+
+        // Container number 7
+        > div.cont-7 {
+          @include constProperties($width, 500px, flex, $whiteSmoke);
+          flex-flow: column nowrap;
+          justify-content: space-evenly;
+          align-items: center;
+          margin: 30px auto;
+
+          > div.second {
+            @include constProperties(100%, 30%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            order: 1;
+
+            > img {
+              width: 130px;
+            }
+
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > div {
+              > a {
+                color: $blue;
+                font-size: 16.5px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > sup {
+                  font-size: 10px;
+                }
+              }
+
+              > i {
+                font-size: 10px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+          > div.first {
+            order: 2;
+            width: 100%;
+            height: 65%;
+            background-image: url(../img/fitness_plus__fzqddmq9dqai_large.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+        }
+        
       }
     }
   } @else {
@@ -7057,6 +7640,195 @@
             }
           }
         }
+        // Container number 5
+        > div.cont-5 {
+          @include constProperties($width, 500px, flex, $whiteSmoke);
+          flex-flow: column nowrap;
+          justify-content: space-evenly;
+          align-items: center;
+          margin: 30px auto;
+
+          > div.second {
+            @include constProperties(100%, 30%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            order: 1;
+
+            > h1 {
+              width: 100%;
+              font-size: 25px;
+              color: black;
+              text-align: center;
+            }
+            > span {
+              width: 250px;
+              font-size: 18px;
+              color: black;
+              text-align: center;
+            }
+            > div {
+              > a {
+                color: $blue;
+                font-size: 16.5px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 5px;
+              }
+            }
+          }
+          > div.first {
+            order: 2;
+            width: 100%;
+            height: 60%;
+            background-image: url(../img/banner_watch__cj4okm1rm282_large.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+        }
+
+        // Container number 6
+        > div.cont-6 {
+          @include constProperties($width, 650px, flex, $whiteSmoke);
+          flex-flow: column nowrap;
+          justify-content: space-evenly;
+          align-items: center;
+          margin: 30px auto;
+
+          > div.first {
+            @include constProperties(100%, 50%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            order: 2;
+
+            > h1 {
+              width: 100%;
+              font-size: 25px;
+              color: black;
+              text-align: center;
+            }
+            > span:nth-of-type(1) {
+              font-size: 15px;
+              color: black;
+              text-align: center;
+              font-weight: 600;
+            }
+            > span:nth-of-type(2) {
+              font-size: 16.5px;
+              color: black;
+              text-align: center;
+              font-weight: 600;
+            }
+            > div {
+              height: 35%;
+              display: flex;
+              flex-flow: column nowrap;
+              align-items: center;
+              justify-content: center;
+              gap: 15px;
+
+              > a:nth-of-type(1) {
+                color: $blue;
+                font-size: 16.5px;
+                padding: 8px 15px;
+                border-radius: 25px;
+                border: 1px solid $blue;
+              }
+              > a:nth-of-type(2) {
+                color: $blue;
+                font-size: 16.5px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+                > i {
+                  font-size: 10px;
+                  color: $lightBlue;
+                  padding-right: 5px;
+                }
+              }
+            }
+          }
+          > div.second {
+            order: 1;
+            width: 100%;
+            height: 35%;
+            background-image: url(../img/family_setup__f5mzp4ts5n2a_large.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+        }
+
+        // Container number 7
+        > div.cont-7 {
+          @include constProperties($width, 500px, flex, $whiteSmoke);
+          flex-flow: column nowrap;
+          justify-content: space-evenly;
+          align-items: center;
+          margin: 30px auto;
+
+          > div.second {
+            @include constProperties(100%, 30%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            order: 1;
+
+            > img {
+              width: 130px;
+            }
+
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > div {
+              > a {
+                color: $blue;
+                font-size: 16.5px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > sup {
+                  font-size: 10px;
+                }
+              }
+
+              > i {
+                font-size: 10px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+          > div.first {
+            order: 2;
+            width: 100%;
+            height: 65%;
+            background-image: url(../img/fitness_plus__fzqddmq9dqai_large.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+        }
+        
       }
     }
   }
