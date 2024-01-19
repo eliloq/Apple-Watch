@@ -1546,7 +1546,493 @@
             background-size: contain;
           }
         }
-     
+             // Container number 8
+        > div.cont-8 {
+          @include constProperties($width-2, 450px, flex, white);
+          flex-flow: row nowrap;
+          justify-content: space-around;
+          align-items: center;
+          margin: 30px auto;
+
+          > div.first {
+            @include constProperties(380px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            > h1 {
+              font-size: 46px;
+              color: black;
+              text-align: center;
+              line-height: 50px;
+              > sup {
+                font-size: 20px;
+              }
+            }
+            > span {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > a {
+              color: $blue;
+              font-size: 20px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 15px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(380px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            > h1 {
+              font-size: 46px;
+              color: black;
+              text-align: center;
+              line-height: 50px;
+            }
+            > span {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > a {
+              color: $blue;
+              font-size: 20px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 15px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+        }
+
+        // Container number 10
+        > div.cont-10 {
+          @include constProperties($width-2, 720px, flex, transparent);
+          flex-flow: row nowrap;
+          justify-content: space-around;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+
+          > div.first {
+            @include constProperties(50%, 100%, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 15px;
+            overflow: hidden;
+            padding-top: 50px;
+            background-image: url(../img/tile_why_watch__ft68r958qmye_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+
+            > h1 {
+              font-size: 40px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+            }
+            > span {
+              font-size: 22px;
+              color: black;
+              text-align: center;
+              font-weight: 600;
+            }
+            > a {
+              color: $blue;
+              font-size: 20px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 15px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(50%, 100%, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 15px;
+            overflow: hidden;
+            padding-top: 50px;
+            background-image: url(../img/watchos_banner__bfwu1ze5oy0y_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+
+            > h1 {
+              font-size: 40px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+            }
+            > span {
+              font-size: 22px;
+              color: black;
+              text-align: center;
+              font-weight: 600;
+            }
+            > a {
+              color: $blue;
+              font-size: 20px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 15px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+        }
+
+        // Container number 11
+        > div.cont-11 {
+          @include constProperties($width-2, auto, flex, transparent);
+          flex-flow: column nowrap;
+          justify-content: center;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+          > h1 {
+            font-size: 50px;
+            margin-top: 100px;
+            color: black;
+            text-align: center;
+          }
+          > div {
+            @include constProperties($width, 720px, flex, transparent);
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: 30px auto;
+            gap: 30px;
+            > div.first {
+              @include constProperties(50%, 100%, flex, $whiteSmoke);
+              flex-flow: column nowrap;
+              justify-content: start;
+              align-items: center;
+              gap: 15px;
+              overflow: hidden;
+              padding-top: 50px;
+
+              > h1 {
+                padding-top: 30px;
+                width: 350px;
+                font-size: 45px;
+                color: black;
+                text-align: center;
+                line-height: 50px;
+              }
+
+              > a {
+                color: $blue;
+                font-size: 20px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > i {
+                  font-size: 12px;
+                  color: $lightBlue;
+                  padding-right: 15px;
+                }
+              }
+
+              > img {
+                padding-top: 50px;
+              }
+            }
+
+            > div.second {
+              @include constProperties(50%, 100%, flex, $whiteSmoke);
+              flex-flow: column nowrap;
+              justify-content: start;
+              align-items: center;
+              gap: 15px;
+              overflow: hidden;
+              padding-top: 50px;
+              background-image: url(../img/airpods__ttl0kjvjhyqq_large.jpg);
+              background-repeat: no-repeat;
+              background-position: center bottom;
+
+              > h1 {
+                padding-top: 30px;
+                width: 350px;
+                font-size: 45px;
+                color: black;
+                text-align: center;
+                line-height: 50px;
+              }
+              > span {
+                width: 300px;
+                font-size: 20px;
+                color: black;
+                text-align: center;
+                line-height: 30px;
+              }
+              > a {
+                color: $blue;
+                font-size: 20px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > i {
+                  font-size: 12px;
+                  color: $lightBlue;
+                  padding-right: 15px;
+                }
+              }
+            }
+          }
+        }
+
+        // Container number 12
+        > div.cont-12 {
+          @include constProperties($width-2, 400px, flex, white);
+          flex-flow: row nowrap;
+          justify-content: space-evenly;
+          margin: 80px auto;
+
+          > div.first {
+            @include constProperties(250px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            align-items: center;
+            gap: 10px;
+
+            > img {
+              width: 90px;
+            }
+            > h1 {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(250px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            align-items: center;
+            gap: 10px;
+
+            > img {
+              width: 80px;
+            }
+            > h1 {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.third {
+            @include constProperties(250px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            align-items: center;
+            gap: 5px;
+
+            > img {
+              width: 90px;
+            }
+            > h1 {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+        }
+
+        // Container number 14
+        > div.cont-14 {
+          @include constProperties($width-2, 650px, flex, transparent);
+          flex-flow: row nowrap;
+          justify-content: space-around;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+
+          > div.first {
+            @include constProperties(50%, 100%, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 15px;
+            overflow: hidden;
+            padding-top: 50px;
+            background-image: url(../img/tile_health__dqs63rn9j12e_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+
+            > h1 {
+              padding-top: 30px;
+              font-size: 45px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+            }
+            > span {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(50%, 100%, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 15px;
+            overflow: hidden;
+            padding-top: 50px;
+            background-image: url(../img/tile_apple-research__fivkf6lgoiie_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+
+            > h1 {
+              padding-top: 30px;
+              font-size: 45px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+            }
+            > span {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+        }
+        
       }
     }
   } @else if $value==$lg {
@@ -3082,6 +3568,493 @@
             background-size: contain;
           }
         }
+             // Container number 8
+        > div.cont-8 {
+          @include constProperties($width-2, 450px, flex, white);
+          flex-flow: row nowrap;
+          justify-content: space-around;
+          align-items: center;
+          margin: 30px auto;
+
+          > div.first {
+            @include constProperties(380px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            > h1 {
+              font-size: 46px;
+              color: black;
+              text-align: center;
+              line-height: 50px;
+              > sup {
+                font-size: 20px;
+              }
+            }
+            > span {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > a {
+              color: $blue;
+              font-size: 20px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 15px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(380px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            > h1 {
+              font-size: 46px;
+              color: black;
+              text-align: center;
+              line-height: 50px;
+            }
+            > span {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > a {
+              color: $blue;
+              font-size: 20px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 15px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+        }
+
+        // Container number 10
+        > div.cont-10 {
+          @include constProperties($width-2, 720px, flex, transparent);
+          flex-flow: row nowrap;
+          justify-content: space-around;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+
+          > div.first {
+            @include constProperties(50%, 100%, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 15px;
+            overflow: hidden;
+            padding-top: 50px;
+            background-image: url(../img/tile_why_watch__ft68r958qmye_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+
+            > h1 {
+              font-size: 40px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+            }
+            > span {
+              font-size: 22px;
+              color: black;
+              text-align: center;
+              font-weight: 600;
+            }
+            > a {
+              color: $blue;
+              font-size: 20px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 15px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(50%, 100%, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 15px;
+            overflow: hidden;
+            padding-top: 50px;
+            background-image: url(../img/watchos_banner__bfwu1ze5oy0y_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+
+            > h1 {
+              font-size: 40px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+            }
+            > span {
+              font-size: 22px;
+              color: black;
+              text-align: center;
+              font-weight: 600;
+            }
+            > a {
+              color: $blue;
+              font-size: 20px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 15px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+        }
+
+        // Container number 11
+        > div.cont-11 {
+          @include constProperties($width-2, auto, flex, transparent);
+          flex-flow: column nowrap;
+          justify-content: center;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+          > h1 {
+            font-size: 50px;
+            margin-top: 100px;
+            color: black;
+            text-align: center;
+          }
+          > div {
+            @include constProperties($width, 720px, flex, transparent);
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: 30px auto;
+            gap: 30px;
+            > div.first {
+              @include constProperties(50%, 100%, flex, $whiteSmoke);
+              flex-flow: column nowrap;
+              justify-content: start;
+              align-items: center;
+              gap: 15px;
+              overflow: hidden;
+              padding-top: 50px;
+
+              > h1 {
+                padding-top: 30px;
+                width: 350px;
+                font-size: 45px;
+                color: black;
+                text-align: center;
+                line-height: 50px;
+              }
+
+              > a {
+                color: $blue;
+                font-size: 20px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > i {
+                  font-size: 12px;
+                  color: $lightBlue;
+                  padding-right: 15px;
+                }
+              }
+
+              > img {
+                padding-top: 50px;
+              }
+            }
+
+            > div.second {
+              @include constProperties(50%, 100%, flex, $whiteSmoke);
+              flex-flow: column nowrap;
+              justify-content: start;
+              align-items: center;
+              gap: 15px;
+              overflow: hidden;
+              padding-top: 50px;
+              background-image: url(../img/airpods__ttl0kjvjhyqq_large.jpg);
+              background-repeat: no-repeat;
+              background-position: center bottom;
+
+              > h1 {
+                padding-top: 30px;
+                width: 350px;
+                font-size: 45px;
+                color: black;
+                text-align: center;
+                line-height: 50px;
+              }
+              > span {
+                width: 300px;
+                font-size: 20px;
+                color: black;
+                text-align: center;
+                line-height: 30px;
+              }
+              > a {
+                color: $blue;
+                font-size: 20px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > i {
+                  font-size: 12px;
+                  color: $lightBlue;
+                  padding-right: 15px;
+                }
+              }
+            }
+          }
+        }
+
+        // Container number 12
+        > div.cont-12 {
+          @include constProperties($width-2, 400px, flex, white);
+          flex-flow: row nowrap;
+          justify-content: space-evenly;
+          margin: 80px auto;
+
+          > div.first {
+            @include constProperties(250px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            align-items: center;
+            gap: 10px;
+
+            > img {
+              width: 90px;
+            }
+            > h1 {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(250px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            align-items: center;
+            gap: 10px;
+
+            > img {
+              width: 80px;
+            }
+            > h1 {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.third {
+            @include constProperties(250px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            align-items: center;
+            gap: 5px;
+
+            > img {
+              width: 90px;
+            }
+            > h1 {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+        }
+
+        // Container number 14
+        > div.cont-14 {
+          @include constProperties($width-2, 650px, flex, transparent);
+          flex-flow: row nowrap;
+          justify-content: space-around;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+
+          > div.first {
+            @include constProperties(50%, 100%, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 15px;
+            overflow: hidden;
+            padding-top: 50px;
+            background-image: url(../img/tile_health__dqs63rn9j12e_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+
+            > h1 {
+              padding-top: 30px;
+              font-size: 45px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+            }
+            > span {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(50%, 100%, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 15px;
+            overflow: hidden;
+            padding-top: 50px;
+            background-image: url(../img/tile_apple-research__fivkf6lgoiie_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+
+            > h1 {
+              padding-top: 30px;
+              font-size: 45px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+            }
+            > span {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+        }
+        
       }
     }
   } @else if $value==$md {
@@ -4648,6 +5621,501 @@
             background-size: contain;
           }
         }
+  // Container number 8
+        > div.cont-8 {
+          @include constProperties($width-3, 450px, flex, white);
+          flex-flow: row nowrap;
+          justify-content: space-around;
+          align-items: center;
+          margin: 30px auto;
+
+          > div.first {
+            @include constProperties(300px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            > h1 {
+              font-size: 38px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+              > sup {
+                font-size: 20px;
+              }
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(300px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            > h1 {
+              font-size: 38px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+              > sup {
+                font-size: 20px;
+              }
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+        }
+
+        // Container number 10
+        > div.cont-10 {
+          @include constProperties($width-3, 520px, flex, transparent);
+          flex-flow: row nowrap;
+          justify-content: space-around;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+
+          > div.first {
+            @include constProperties(50%, 100%, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+            overflow: hidden;
+            padding-top: 50px;
+            background-image: url(../img/tile_why_watch__ft68r958qmye_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: 110%;
+
+            > h1 {
+              font-size: 25px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              font-weight: 600;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(50%, 100%, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+            overflow: hidden;
+            padding-top: 50px;
+            background-image: url(../img/watchos_banner__bfwu1ze5oy0y_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: 100%;
+
+            > h1 {
+              font-size: 25px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              font-weight: 600;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+        }
+
+        // Container number 11
+        > div.cont-11 {
+          @include constProperties($width-3, auto, flex, transparent);
+          flex-flow: column nowrap;
+          justify-content: center;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+          > h1 {
+            font-size: 40px;
+            margin-top: 100px;
+            color: black;
+            text-align: center;
+          }
+          > div {
+            @include constProperties($width, 520px, flex, transparent);
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: 30px auto;
+            gap: 30px;
+            > div.first {
+              @include constProperties(50%, 100%, flex, $whiteSmoke);
+              flex-flow: column nowrap;
+              justify-content: start;
+              align-items: center;
+              gap: 15px;
+              overflow: hidden;
+              padding-top: 50px;
+
+              > h1 {
+                width: 350px;
+                font-size: 38px;
+                color: black;
+                text-align: center;
+                line-height: 40px;
+              }
+
+              > a {
+                color: $blue;
+                font-size: 18px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > i {
+                  font-size: 10px;
+                  color: $lightBlue;
+                  padding-right: 15px;
+                }
+              }
+
+              > img {
+                padding-top: 50px;
+                width: 450px;
+              }
+            }
+
+            > div.second {
+              @include constProperties(50%, 100%, flex, $whiteSmoke);
+              flex-flow: column nowrap;
+              justify-content: start;
+              align-items: center;
+              gap: 15px;
+              overflow: hidden;
+              padding-top: 50px;
+              background-image: url(../img/airpods__ttl0kjvjhyqq_large.jpg);
+              background-repeat: no-repeat;
+              background-position: center bottom;
+              background-size: 400px;
+
+              > h1 {
+                width: 300px;
+                font-size: 38px;
+                color: black;
+                text-align: center;
+                line-height: 40px;
+              }
+              > span {
+                width: 250px;
+                font-size: 18px;
+                color: black;
+                text-align: center;
+                line-height: 30px;
+              }
+              > a {
+                color: $blue;
+                font-size: 18px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > i {
+                  font-size: 10px;
+                  color: $lightBlue;
+                  padding-right: 15px;
+                }
+              }
+            }
+          }
+        }
+
+        // Container number 12
+        > div.cont-12 {
+          @include constProperties($width-2, 400px, flex, white);
+          flex-flow: row nowrap;
+          justify-content: space-evenly;
+          margin: 50px auto;
+          gap: 30px;
+
+          > div.first {
+            @include constProperties(250px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            align-items: center;
+            gap: 10px;
+
+            > img {
+              width: 90px;
+            }
+            > h1 {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(250px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            align-items: center;
+            gap: 10px;
+
+            > img {
+              width: 80px;
+            }
+            > h1 {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.third {
+            @include constProperties(250px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            align-items: center;
+            gap: 5px;
+
+            > img {
+              width: 90px;
+            }
+            > h1 {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+        }
+
+        // Container number 14
+        > div.cont-14 {
+          @include constProperties($width-3, 520px, flex, transparent);
+          flex-flow: row nowrap;
+          justify-content: space-around;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+
+          > div.first {
+            @include constProperties(50%, 100%, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+            overflow: hidden;
+            padding-top: 50px;
+            background-image: url(../img/tile_health__dqs63rn9j12e_medium.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: 350px;
+
+            > h1 {
+              padding-top: 30px;
+              font-size: 30px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+            }
+            > a {
+              color: $blue;
+              font-size: 16.5px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 10px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(50%, 100%, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+            overflow: hidden;
+            padding-top: 50px;
+            background-image: url(../img/tile_apple-research__fivkf6lgoiie_medium.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: 350px;
+
+            > h1 {
+              padding-top: 30px;
+              font-size: 30px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+            }
+            > a {
+              color: $blue;
+              font-size: 16.5px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 10px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+        }
+        
       }
     }
   } @else if $value==$sm {
@@ -6235,6 +7703,505 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
+          }
+        }
+
+        // Container number 8
+        > div.cont-8 {
+          @include constProperties($width, 600px, flex, white);
+          flex-flow: column nowrap;
+          justify-content: space-around;
+          align-items: center;
+          margin: 30px auto;
+
+          > div.first {
+            @include constProperties(350px, 50%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            > h1 {
+              font-size: 30px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+              > sup {
+                font-size: 20px;
+              }
+            }
+            > span {
+              font-size: 17px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > a {
+              color: $blue;
+              font-size: 16.5px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 10px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(350px, 50%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            > h1 {
+              font-size: 30px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+              > sup {
+                font-size: 20px;
+              }
+            }
+            > span {
+              font-size: 17px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > a {
+              color: $blue;
+              font-size: 16.5px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 10px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+        }
+
+        // Container number 10
+        > div.cont-10 {
+          @include constProperties($width, 1100px, flex, transparent);
+          flex-flow: column nowrap;
+          justify-content: space-around;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+
+          > div.first {
+            @include constProperties(400px, 550px, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+            overflow: hidden;
+            padding-top: 50px;
+            background-image: url(../img/tile_why_watch__ft68r958qmye_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: 400px;
+
+            > h1 {
+              font-size: 30px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > span {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              font-weight: 600;
+            }
+            > a {
+              color: $blue;
+              font-size: 16px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 10px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(400px, 550px, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+            overflow: hidden;
+            padding-top: 50px;
+            background-image: url(../img/watchos_banner__bfwu1ze5oy0y_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: 500px;
+
+            > h1 {
+              font-size: 30px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > span {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              font-weight: 600;
+            }
+            > a {
+              color: $blue;
+              font-size: 16px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 10px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+        }
+
+        // Container number 11
+        > div.cont-11 {
+          @include constProperties($width, auto, flex, transparent);
+          flex-flow: column nowrap;
+          justify-content: center;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+          > h1 {
+            width: 300px;
+            font-size: 35px;
+            margin-top: 100px;
+            color: black;
+            text-align: center;
+          }
+          > div {
+            @include constProperties($width, auto, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: 30px auto;
+            gap: 30px;
+            > div.first {
+              @include constProperties(400px, 550px, flex, $whiteSmoke);
+              flex-flow: column nowrap;
+              justify-content: start;
+              align-items: center;
+              gap: 15px;
+              overflow: hidden;
+              padding-top: 50px;
+
+              > h1 {
+                padding-top: 15px;
+                width: 350px;
+                font-size: 30px;
+                color: black;
+                text-align: center;
+                line-height: 35px;
+              }
+
+              > a {
+                color: $blue;
+                font-size: 16.5px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > i {
+                  font-size: 10px;
+                  color: $lightBlue;
+                  padding-right: 15px;
+                }
+              }
+
+              > img {
+                padding-top: 65px;
+                width: 450px;
+              }
+            }
+
+            > div.second {
+              @include constProperties(400px, 550px, flex, $whiteSmoke);
+              flex-flow: column nowrap;
+              justify-content: start;
+              align-items: center;
+              gap: 15px;
+              overflow: hidden;
+              padding-top: 50px;
+              background-image: url(../img/airpods__ttl0kjvjhyqq_large.jpg);
+              background-repeat: no-repeat;
+              background-position: center bottom;
+              background-size: 400px;
+
+              > h1 {
+                padding-top: 15px;
+                width: 190px;
+                font-size: 30px;
+                color: black;
+                text-align: center;
+                line-height: 35px;
+              }
+              > span {
+                width: 250px;
+                font-size: 17px;
+                color: black;
+                text-align: center;
+                line-height: 25px;
+              }
+              > a {
+                color: $blue;
+                font-size: 16.5px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > i {
+                  font-size: 10px;
+                  color: $lightBlue;
+                  padding-right: 15px;
+                }
+              }
+            }
+          }
+        }
+
+        // Container number 12
+        > div.cont-12 {
+          @include constProperties($width, auto, flex, white);
+          flex-flow: column nowrap;
+          justify-content: space-evenly;
+          align-items: center;
+          margin: 50px auto;
+          gap: 30px;
+
+          > div.first {
+            @include constProperties(250px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            align-items: center;
+            gap: 10px;
+
+            > img {
+              width: 90px;
+            }
+            > h1 {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(250px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            align-items: center;
+            gap: 10px;
+
+            > img {
+              width: 80px;
+            }
+            > h1 {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.third {
+            @include constProperties(250px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            align-items: center;
+            gap: 5px;
+
+            > img {
+              width: 90px;
+            }
+            > h1 {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+        }
+
+        // Container number 14
+        > div.cont-14 {
+          @include constProperties($width, 1100px, flex, transparent);
+          flex-flow: column nowrap;
+          justify-content: space-around;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+
+          > div.first {
+            @include constProperties(400px, 500px, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+            overflow: hidden;
+            padding-top: 50px;
+            background-image: url(../img/tile_health__dqs63rn9j12e_medium.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: 350px;
+
+            > h1 {
+              padding-top: 30px;
+              font-size: 30px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+            }
+            > a {
+              color: $blue;
+              font-size: 16.5px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 10px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(400px, 500px, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+            overflow: hidden;
+            padding-top: 50px;
+            background-image: url(../img/tile_apple-research__fivkf6lgoiie_medium.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: 350px;
+
+            > h1 {
+              padding-top: 30px;
+              font-size: 30px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+            }
+            > a {
+              color: $blue;
+              font-size: 16.5px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 10px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
           }
         }
         
@@ -7826,6 +9793,502 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
+          }
+        }
+              // Container number 8
+      > div.cont-8 {
+          @include constProperties($width, 600px, flex, white);
+          flex-flow: column nowrap;
+          justify-content: space-around;
+          align-items: center;
+          margin: 30px auto;
+
+          > div.first {
+            @include constProperties(350px, 50%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            > h1 {
+              font-size: 30px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+              > sup {
+                font-size: 20px;
+              }
+            }
+            > span {
+              font-size: 17px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > a {
+              color: $blue;
+              font-size: 16.5px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 10px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(350px, 50%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            > h1 {
+              font-size: 30px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+              > sup {
+                font-size: 20px;
+              }
+            }
+            > span {
+              font-size: 17px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > a {
+              color: $blue;
+              font-size: 16.5px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 10px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+        }
+
+          // Container number 10
+        > div.cont-10 {
+          @include constProperties($width, 1100px, flex, transparent);
+          flex-flow: column nowrap;
+          justify-content: space-around;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+
+          > div.first {
+            @include constProperties(400px, 550px, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+            overflow: hidden;
+            padding-top: 50px;
+            background-image: url(../img/tile_why_watch__ft68r958qmye_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: 400px;
+
+            > h1 {
+              font-size: 30px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > span {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              font-weight: 600;
+            }
+            > a {
+              color: $blue;
+              font-size: 16px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 10px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(400px, 550px, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+            overflow: hidden;
+            padding-top: 50px;
+            background-image: url(../img/watchos_banner__bfwu1ze5oy0y_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: 500px;
+
+            > h1 {
+              font-size: 30px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > span {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              font-weight: 600;
+            }
+            > a {
+              color: $blue;
+              font-size: 16px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 10px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+        }
+
+        // Container number 11
+        > div.cont-11 {
+          @include constProperties($width, auto, flex, transparent);
+          flex-flow: column nowrap;
+          justify-content: center;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+          > h1 {
+            width: 300px;
+            font-size: 35px;
+            margin-top: 100px;
+            color: black;
+            text-align: center;
+          }
+          > div {
+            @include constProperties($width, auto, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: 30px auto;
+            gap: 30px;
+            > div.first {
+              @include constProperties(400px, 550px, flex, $whiteSmoke);
+              flex-flow: column nowrap;
+              justify-content: start;
+              align-items: center;
+              gap: 15px;
+              overflow: hidden;
+              padding-top: 50px;
+
+              > h1 {
+                padding-top: 15px;
+                width: 350px;
+                font-size: 30px;
+                color: black;
+                text-align: center;
+                line-height: 35px;
+              }
+
+              > a {
+                color: $blue;
+                font-size: 16.5px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > i {
+                  font-size: 10px;
+                  color: $lightBlue;
+                  padding-right: 15px;
+                }
+              }
+
+              > img {
+                padding-top: 65px;
+                width: 450px;
+              }
+            }
+
+            > div.second {
+              @include constProperties(400px, 550px, flex, $whiteSmoke);
+              flex-flow: column nowrap;
+              justify-content: start;
+              align-items: center;
+              gap: 15px;
+              overflow: hidden;
+              padding-top: 50px;
+              background-image: url(../img/airpods__ttl0kjvjhyqq_large.jpg);
+              background-repeat: no-repeat;
+              background-position: center bottom;
+              background-size: 400px;
+
+              > h1 {
+                padding-top: 15px;
+                width: 190px;
+                font-size: 30px;
+                color: black;
+                text-align: center;
+                line-height: 35px;
+              }
+              > span {
+                width: 250px;
+                font-size: 17px;
+                color: black;
+                text-align: center;
+                line-height: 25px;
+              }
+              > a {
+                color: $blue;
+                font-size: 16.5px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > i {
+                  font-size: 10px;
+                  color: $lightBlue;
+                  padding-right: 15px;
+                }
+              }
+            }
+          }
+        }
+
+        // Container number 12
+        > div.cont-12 {
+          @include constProperties($width, auto, flex, white);
+          flex-flow: column nowrap;
+          justify-content: space-evenly;
+          align-items: center;
+          margin: 50px auto;
+          gap: 30px;
+
+          > div.first {
+            @include constProperties(250px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            align-items: center;
+            gap: 10px;
+
+            > img {
+              width: 90px;
+            }
+            > h1 {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(250px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            align-items: center;
+            gap: 10px;
+
+            > img {
+              width: 80px;
+            }
+            > h1 {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.third {
+            @include constProperties(250px, 100%, flex, transparent);
+            flex-flow: column nowrap;
+            align-items: center;
+            gap: 5px;
+
+            > img {
+              width: 90px;
+            }
+            > h1 {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > a {
+              color: $blue;
+              font-size: 18px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 12px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+        }
+        > div.cont-14 {
+          @include constProperties($width, 1100px, flex, transparent);
+          flex-flow: column nowrap;
+          justify-content: space-around;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+
+          > div.first {
+            @include constProperties(400px, 500px, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+            overflow: hidden;
+            padding-top: 50px;
+            background-image: url(../img/tile_health__dqs63rn9j12e_medium.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: 350px;
+
+            > h1 {
+              padding-top: 30px;
+              font-size: 30px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+            }
+            > a {
+              color: $blue;
+              font-size: 16.5px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 10px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(400px, 500px, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+            overflow: hidden;
+            padding-top: 50px;
+            background-image: url(../img/tile_apple-research__fivkf6lgoiie_medium.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: 350px;
+
+            > h1 {
+              padding-top: 30px;
+              font-size: 30px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+            }
+            > span {
+              font-size: 18px;
+              color: black;
+              text-align: center;
+            }
+            > a {
+              color: $blue;
+              font-size: 16.5px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > i {
+                font-size: 10px;
+                color: $lightBlue;
+                padding-right: 15px;
+              }
+            }
           }
         }
         
