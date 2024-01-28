@@ -828,3 +828,313 @@ $("div.vertical-menu>div.menu>nav>ul>li#support>div.s-menu>div>i").on({
     }, 500);
   },
 });
+
+
+
+// menu in footer
+
+// shop-learn li
+li1 = true;
+$("div.footer>div.menu>nav>ul>li#shop-learn").on({
+  click: function () {
+    if (li1) {
+      $("div.footer>div.menu>nav>ul>li#shop-learn>i").css({
+        transform: "scaleY(-1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#shop-learn>div").slideDown();
+
+      li1 = false;
+    } else {
+      $("div.footer>div.menu>nav>ul>li#shop-learn>i").css({
+        transform: "scaleY(1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#shop-learn>div").css({
+        display: "none",
+      });
+      li1 = true;
+    }
+  },
+});
+
+
+// apple-wallet li
+li2 = true;
+$("div.footer>div.menu>nav>ul>li#apple-wallet").on({
+  click: function () {
+    if (li2) {
+      $("div.footer>div.menu>nav>ul>li#apple-wallet>i").css({
+        transform: "scaleY(-1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#apple-wallet>div").slideDown();
+
+      li2 = false;
+    } else {
+      $("div.footer>div.menu>nav>ul>li#apple-wallet>i").css({
+        transform: "scaleY(1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#apple-wallet>div").css({
+        display: "none",
+      });
+      li2 = true;
+    }
+  },
+});
+
+// account li
+li3 = true;
+$("div.footer>div.menu>nav>ul>li#account").on({
+  click: function () {
+    if (li3) {
+      $("div.footer>div.menu>nav>ul>li#account>i").css({
+        transform: "scaleY(-1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#account>div").slideDown();
+
+      li3 = false;
+    } else {
+      $("div.footer>div.menu>nav>ul>li#account>i").css({
+        transform: "scaleY(1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#account>div").css({
+        display: "none",
+      });
+      li3 = true;
+    }
+  },
+});
+
+// entertainment li
+li4 = true;
+$("div.footer>div.menu>nav>ul>li#entertainment").on({
+  click: function () {
+    if (li4) {
+      $("div.footer>div.menu>nav>ul>li#entertainment>i").css({
+        transform: "scaleY(-1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#entertainment>div").slideDown();
+
+      li4 = false;
+    } else {
+      $("div.footer>div.menu>nav>ul>li#entertainment>i").css({
+        transform: "scaleY(1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#entertainment>div").css({
+        display: "none",
+      });
+      li4 = true;
+    }
+  },
+});
+
+
+// apple-store li
+li5 = true;
+$("div.footer>div.menu>nav>ul>li#apple-store").on({
+  click: function () {
+    if (li5) {
+      $("div.footer>div.menu>nav>ul>li#apple-store>i").css({
+        transform: "scaleY(-1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#apple-store>div").slideDown();
+
+      li5 = false;
+    } else {
+      $("div.footer>div.menu>nav>ul>li#apple-store>i").css({
+        transform: "scaleY(1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#apple-store>div").css({
+        display: "none",
+      });
+      li5 = true;
+    }
+  },
+});
+
+
+// for-business li
+li6 = true;
+$("div.footer>div.menu>nav>ul>li#for-business").on({
+  click: function () {
+    if (li6) {
+      $("div.footer>div.menu>nav>ul>li#for-business>i").css({
+        transform: "scaleY(-1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#for-business>div").slideDown();
+
+      li6 = false;
+    } else {
+      $("div.footer>div.menu>nav>ul>li#for-business>i").css({
+        transform: "scaleY(1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#for-business>div").css({
+        display: "none",
+      });
+      li6 = true;
+    }
+  },
+});
+
+
+// for-education li
+li7 = true;
+$("div.footer>div.menu>nav>ul>li#for-education").on({
+  click: function () {
+    if (li7) {
+      $("div.footer>div.menu>nav>ul>li#for-education>i").css({
+        transform: "scaleY(-1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#for-education>div").slideDown();
+
+      li7 = false;
+    } else {
+      $("div.footer>div.menu>nav>ul>li#for-education>i").css({
+        transform: "scaleY(1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#for-education>div").css({
+        display: "none",
+      });
+      li7 = true;
+    }
+  },
+});
+
+
+// for-healthcare li
+li8 = true;
+$("div.footer>div.menu>nav>ul>li#for-healthcare").on({
+  click: function () {
+    if (li8) {
+      $("div.footer>div.menu>nav>ul>li#for-healthcare>i").css({
+        transform: "scaleY(-1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#for-healthcare>div").slideDown();
+
+      li8 = false;
+    } else {
+      $("div.footer>div.menu>nav>ul>li#for-healthcare>i").css({
+        transform: "scaleY(1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#for-healthcare>div").css({
+        display: "none",
+      });
+      li8 = true;
+    }
+  },
+});
+
+
+// for-government li
+li9 = true;
+$("div.footer>div.menu>nav>ul>li#for-government").on({
+  click: function () {
+    if (li9) {
+      $("div.footer>div.menu>nav>ul>li#for-government>i").css({
+        transform: "scaleY(-1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#for-government>div").slideDown();
+
+      li9 = false;
+    } else {
+      $("div.footer>div.menu>nav>ul>li#for-government>i").css({
+        transform: "scaleY(1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#for-government>div").css({
+        display: "none",
+      });
+      li9 = true;
+    }
+  },
+});
+
+
+// apple-values li
+li10 = true;
+$("div.footer>div.menu>nav>ul>li#apple-values").on({
+  click: function () {
+    if (li10) {
+      $("div.footer>div.menu>nav>ul>li#apple-values>i").css({
+        transform: "scaleY(-1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#apple-values>div").slideDown();
+
+      li10 = false;
+    } else {
+      $("div.footer>div.menu>nav>ul>li#apple-values>i").css({
+        transform: "scaleY(1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#apple-values>div").css({
+        display: "none",
+      });
+      li10 = true;
+    }
+  },
+});
+
+
+// about-apple li
+li11 = true;
+$("div.footer>div.menu>nav>ul>li#about-apple").on({
+  click: function () {
+    if (li11) {
+      $("div.footer>div.menu>nav>ul>li#about-apple>i").css({
+        transform: "scaleY(-1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#about-apple>div").slideDown();
+
+      li11 = false;
+    } else {
+      $("div.footer>div.menu>nav>ul>li#about-apple>i").css({
+        transform: "scaleY(1)",
+        transition: "250ms",
+      });
+
+      $("div.footer>div.menu>nav>ul>li#about-apple>div").css({
+        display: "none",
+      });
+      li11 = true;
+    }
+  },
+});
+
