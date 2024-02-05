@@ -1138,3 +1138,20 @@ $("div.footer>div.menu>nav>ul>li#about-apple").on({
   },
 });
 
+
+
+
+// cont-9
+// bands move
+// حرکت بند ساعت ها
+let bandsOffest=$("div.cont-9").offset().top;
+
+$(document).on("scroll",function(){
+  if($(document).scrollTop()>=bandsOffest){
+    $("div.cont-9>div.second>img:nth-of-type(1)").css({
+      transform: "translateX(0)",
+      transition:"3000ms"
+    })
+  }
+})
+
