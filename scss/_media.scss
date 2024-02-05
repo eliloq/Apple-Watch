@@ -1356,7 +1356,8 @@
             }
           }
         }
- // Container number 5
+
+        // Container number 5
         > div.cont-5 {
           @include constProperties($width-2, 600px, flex, $whiteSmoke);
           flex-flow: row nowrap;
@@ -1419,8 +1420,6 @@
           align-items: center;
           margin: 30px auto;
 
-   
-
           > div.first {
             @include constProperties(500px, 100%, flex, transparent);
             flex-flow: column nowrap;
@@ -1450,15 +1449,13 @@
               font-weight: 600;
             }
             > div {
-              >a:nth-of-type(1)
-              {
+              > a:nth-of-type(1) {
                 color: $blue;
                 font-size: 16.5px;
                 padding: 8px 15px;
                 border-radius: 25px;
                 border: 1px solid $blue;
                 margin-right: 15px;
-
               }
               > a:nth-of-type(2) {
                 color: $blue;
@@ -1472,16 +1469,11 @@
                   color: $lightBlue;
                   padding-right: 5px;
                 }
-  
               }
-
-    
-
-           
             }
           }
           > div.second {
-            width:680px;
+            width: 680px;
             height: 100%;
             background-image: url(../img/family_setup__f5mzp4ts5n2a_large.jpg);
             background-position: center left;
@@ -1516,7 +1508,6 @@
               line-height: 30px;
             }
             > div {
-  
               > a {
                 color: $blue;
                 font-size: 16.5px;
@@ -1525,7 +1516,7 @@
                   text-decoration: underline;
                 }
 
-                >sup{
+                > sup {
                   font-size: 10px;
                 }
               }
@@ -1546,7 +1537,8 @@
             background-size: contain;
           }
         }
-             // Container number 8
+
+        // Container number 8
         > div.cont-8 {
           @include constProperties($width-2, 450px, flex, white);
           flex-flow: row nowrap;
@@ -1622,6 +1614,104 @@
                 color: $lightBlue;
                 padding-right: 15px;
               }
+            }
+          }
+        }
+        // Container number 9
+        > div.cont-9 {
+          @include constProperties($width-2, 1000px, flex, $whiteSmoke);
+          flex-flow: column nowrap;
+          justify-content: center;
+          align-items: center;
+          margin: 30px auto;
+          gap: 50px;
+
+          > div.first {
+            @include constProperties(100%, 30%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            > h1 {
+              width: 100%;
+              font-size: 45px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+            }
+            > span {
+              font-size: 25px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+              font-weight: 600;
+            }
+            > a {
+              display: block;
+              width: 205px;
+              height: 50px;
+              border-radius: 30px;
+              position: relative;
+              background-image: linear-gradient(
+                90deg,
+                #fdde5c 0%,
+                #f8ab5e 16.66667%,
+                #f56a62 33.33333%,
+                #a176c8 50%,
+                #759beb 66.66667%,
+                #65beb3 83.33333%,
+                #70db96
+              );
+              backdrop-filter: blur(50px);
+              transition: all 250ms linear;
+
+              &:hover::after {
+                color: $blue;
+                height: 44px;
+                width: 198px;
+                top: calc(50% - 44px / 2);
+                left: calc(50% - 198px / 2);
+              }
+
+              &::after {
+                content: "Create your style";
+                height: 45px;
+                width: 200px;
+                position: absolute;
+                top: calc(50% - 45px / 2);
+                left: calc(50% - 200px / 2);
+                border-radius: 30px;
+                background-color: white;
+                display: inline-block;
+                text-align: center;
+                font-size: 18px;
+                border-radius: 30px;
+                color: black;
+                font-weight: 600;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all 250ms linear;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(100%, 50%, flex, transparent);
+            overflow: hidden;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            > img:nth-of-type(1) {
+              height: 100%;
+              transform: translateX(12%);
+            }
+            > img:nth-last-of-type(1) {
+              height: 100%;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
             }
           }
         }
@@ -1941,6 +2031,183 @@
           }
         }
 
+        // Container number 13
+        > div.cont-13 {
+          @include constProperties($width-2, 650px, flex, transparent);
+          flex-flow: row nowrap;
+          justify-content: space-around;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+
+          > div.first {
+            @include constProperties(50%, 100%, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            overflow: hidden;
+
+            > img :nth-of-type(1) {
+              width: 100px;
+            }
+            > img :nth-of-type(2) {
+              width: 100%;
+            }
+            > span {
+              font-size: 21px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > div {
+              margin-bottom: 50px;
+              > a {
+                color: $blue;
+                font-size: 18px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > i {
+                  font-size: 12px;
+                  color: $lightBlue;
+                  padding-right: 15px;
+                }
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(50%, 100%, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            overflow: hidden;
+
+            > h1 {
+              padding-top: 30px;
+              font-size: 45px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+              > i {
+                font-size: 45px;
+                color: black;
+              }
+            }
+            > span {
+              font-size: 21px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > div {
+              > a {
+                color: $blue;
+                font-size: 18px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > i {
+                  font-size: 12px;
+                  color: $lightBlue;
+                  padding-right: 15px;
+                }
+              }
+            }
+
+            > div.musicSlider {
+              width: 100%;
+              height: 350px;
+              > div.swiper {
+                width: 100%;
+                height: 100%;
+
+                > div.swiper-wrapper {
+                  width: 100%;
+                  height: 100%;
+                  display: flex;
+                  align-items: center;
+
+                  > div.swiper-slide {
+                    height: 300px;
+                    width: 250px !important;
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: start;
+                    align-items: start;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    background-color: #000000a9;
+
+                    > img {
+                      width: 100%;
+                      height: 80%;
+                      object-fit: cover;
+                    }
+                    > span:nth-of-type(1) {
+                      font-size: 13px;
+                      color: white;
+                      font-weight: 600;
+                      margin-top: 12px;
+                      padding-left: 15px;
+                      white-space: nowrap;
+                    }
+                    > span:nth-of-type(2) {
+                      font-size: 12px;
+                      color: white;
+                      padding-left: 15px;
+                    }
+                    > a {
+                      position: absolute;
+                      top: 60%;
+                      left: 50%;
+                      transform: translate(-50%, -50%);
+                      padding: 8px 16.5px;
+                      background-color: white;
+                      color: black;
+                      font-size: 13px;
+                      font-weight: 600;
+                      border-radius: 15px;
+                      z-index: 5;
+                      opacity: 0;
+                      transition: all 250ms linear;
+
+                      > i {
+                        font-size: 13px;
+                      }
+                    }
+                    > div.cover {
+                      width: 100%;
+                      height: 100%;
+                      background-color: transparent;
+                      position: absolute;
+                      z-index: 1;
+                      transition: all 250ms linear;
+                    }
+
+                    &:hover {
+                      > a {
+                        opacity: 1;
+                        transform: translate(-50%, -30px);
+                      }
+                      > div.cover {
+                        background-color: rgba(0, 0, 0, 0.393);
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
         // Container number 14
         > div.cont-14 {
           @include constProperties($width-2, 650px, flex, transparent);
@@ -2049,10 +2316,22 @@
               margin: 10px 0;
               line-height: 16.5px;
 
-              > a {
-                font-size: 12px;
-                color: rgba(0, 0, 0, 0.671);
-                text-decoration: 1px underline solid rgba(0, 0, 0, 0.671);
+              > div {
+                margin-bottom: 50px;
+                > a {
+                  color: $blue;
+                  font-size: 18px;
+
+                  &:hover {
+                    text-decoration: underline;
+                  }
+
+                  > i {
+                    font-size: 12px;
+                    color: $lightBlue;
+                    padding-right: 15px;
+                  }
+                }
               }
 
               > span {
@@ -2202,8 +2481,6 @@
             }
           }
         }
-
-        
       }
     }
   } @else if $value==$lg {
@@ -2275,7 +2552,7 @@
 
                   > div {
                     width: 75%;
-                    height: 80%;
+                    height: 100%;
                     display: flex;
                     gap: 50px;
 
@@ -3739,7 +4016,8 @@
             background-size: contain;
           }
         }
-             // Container number 8
+
+        // Container number 8
         > div.cont-8 {
           @include constProperties($width-2, 450px, flex, white);
           flex-flow: row nowrap;
@@ -3815,6 +4093,105 @@
                 color: $lightBlue;
                 padding-right: 15px;
               }
+            }
+          }
+        }
+
+        // Container number 9
+        > div.cont-9 {
+          @include constProperties($width-2, 1000px, flex, $whiteSmoke);
+          flex-flow: column nowrap;
+          justify-content: center;
+          align-items: center;
+          margin: 30px auto;
+          gap: 50px;
+
+          > div.first {
+            @include constProperties(100%, 30%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            > h1 {
+              width: 100%;
+              font-size: 45px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+            }
+            > span {
+              font-size: 25px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+              font-weight: 600;
+            }
+            > a {
+              display: block;
+              width: 205px;
+              height: 50px;
+              border-radius: 30px;
+              position: relative;
+              background-image: linear-gradient(
+                90deg,
+                #fdde5c 0%,
+                #f8ab5e 16.66667%,
+                #f56a62 33.33333%,
+                #a176c8 50%,
+                #759beb 66.66667%,
+                #65beb3 83.33333%,
+                #70db96
+              );
+              backdrop-filter: blur(50px);
+              transition: all 250ms linear;
+
+              &:hover::after {
+                color: $blue;
+                height: 44px;
+                width: 198px;
+                top: calc(50% - 44px / 2);
+                left: calc(50% - 198px / 2);
+              }
+
+              &::after {
+                content: "Create your style";
+                height: 45px;
+                width: 200px;
+                position: absolute;
+                top: calc(50% - 45px / 2);
+                left: calc(50% - 200px / 2);
+                border-radius: 30px;
+                background-color: white;
+                display: inline-block;
+                text-align: center;
+                font-size: 18px;
+                border-radius: 30px;
+                color: black;
+                font-weight: 600;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all 250ms linear;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(100%, 50%, flex, transparent);
+            overflow: hidden;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            > img:nth-of-type(1) {
+              height: 100%;
+              transform: translateX(12%);
+            }
+            > img:nth-last-of-type(1) {
+              height: 100%;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
             }
           }
         }
@@ -4133,7 +4510,182 @@
             }
           }
         }
+        // Container number 13
+        > div.cont-13 {
+          @include constProperties($width-2, 650px, flex, transparent);
+          flex-flow: row nowrap;
+          justify-content: space-around;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
 
+          > div.first {
+            @include constProperties(50%, 100%, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            overflow: hidden;
+
+            > img :nth-of-type(1) {
+              width: 100px;
+            }
+            > img :nth-of-type(2) {
+              width: 100%;
+            }
+            > span {
+              font-size: 21px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > div {
+              margin-bottom: 50px;
+              > a {
+                color: $blue;
+                font-size: 18px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > i {
+                  font-size: 12px;
+                  color: $lightBlue;
+                  padding-right: 15px;
+                }
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(50%, 100%, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            overflow: hidden;
+
+            > h1 {
+              padding-top: 30px;
+              font-size: 45px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+              > i {
+                font-size: 45px;
+                color: black;
+              }
+            }
+            > span {
+              font-size: 21px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > div {
+              > a {
+                color: $blue;
+                font-size: 18px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > i {
+                  font-size: 12px;
+                  color: $lightBlue;
+                  padding-right: 15px;
+                }
+              }
+            }
+
+            > div.musicSlider {
+              width: 100%;
+              height: 350px;
+              > div.swiper {
+                width: 100%;
+                height: 100%;
+
+                > div.swiper-wrapper {
+                  width: 100%;
+                  height: 100%;
+                  display: flex;
+                  align-items: center;
+
+                  > div.swiper-slide {
+                    height: 300px;
+                    width: 250px !important;
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: start;
+                    align-items: start;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    background-color: #000000a9;
+
+                    > img {
+                      width: 100%;
+                      height: 80%;
+                      object-fit: cover;
+                    }
+                    > span:nth-of-type(1) {
+                      font-size: 13px;
+                      color: white;
+                      font-weight: 600;
+                      margin-top: 12px;
+                      padding-left: 15px;
+                      white-space: nowrap;
+                    }
+                    > span:nth-of-type(2) {
+                      font-size: 12px;
+                      color: white;
+                      padding-left: 15px;
+                    }
+                    > a {
+                      position: absolute;
+                      top: 60%;
+                      left: 50%;
+                      transform: translate(-50%, -50%);
+                      padding: 8px 16.5px;
+                      background-color: white;
+                      color: black;
+                      font-size: 13px;
+                      font-weight: 600;
+                      border-radius: 15px;
+                      z-index: 5;
+                      opacity: 0;
+                      transition: all 250ms linear;
+
+                      > i {
+                        font-size: 13px;
+                      }
+                    }
+                    > div.cover {
+                      width: 100%;
+                      height: 100%;
+                      background-color: transparent;
+                      position: absolute;
+                      z-index: 1;
+                      transition: all 250ms linear;
+                    }
+
+                    &:hover {
+                      > a {
+                        opacity: 1;
+                        transform: translate(-50%, -30px);
+                      }
+                      > div.cover {
+                        background-color: rgba(0, 0, 0, 0.393);
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
         // Container number 14
         > div.cont-14 {
           @include constProperties($width-2, 650px, flex, transparent);
@@ -4395,7 +4947,6 @@
             }
           }
         }
-        
       }
     }
   } @else if $value==$md {
@@ -5775,7 +6326,7 @@
             }
           }
         }
- 
+
         // Container number 5
         > div.cont-5 {
           @include constProperties($width-3, 400px, flex, $whiteSmoke);
@@ -5962,7 +6513,8 @@
             background-size: contain;
           }
         }
-  // Container number 8
+
+        // Container number 8
         > div.cont-8 {
           @include constProperties($width-3, 450px, flex, white);
           flex-flow: row nowrap;
@@ -6045,6 +6597,104 @@
           }
         }
 
+        // Container number 9
+        > div.cont-9 {
+          @include constProperties($width-3, 750px, flex, $whiteSmoke);
+          flex-flow: column nowrap;
+          justify-content: center;
+          align-items: center;
+          margin: 30px auto;
+          gap: 50px;
+
+          > div.first {
+            @include constProperties(100%, 35%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            > h1 {
+              width: 100%;
+              font-size: 40px;
+              color: black;
+              text-align: center;
+              line-height: 50px;
+            }
+            > span {
+              font-size: 25px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > a {
+              display: block;
+              width: 205px;
+              height: 50px;
+              border-radius: 30px;
+              position: relative;
+              background-image: linear-gradient(
+                90deg,
+                #fdde5c 0%,
+                #f8ab5e 16.66667%,
+                #f56a62 33.33333%,
+                #a176c8 50%,
+                #759beb 66.66667%,
+                #65beb3 83.33333%,
+                #70db96
+              );
+
+              backdrop-filter: blur(50px);
+              transition: all 250ms linear;
+
+              &:hover::after {
+                color: $blue;
+                height: 44px;
+                width: 198px;
+                top: calc(50% - 44px / 2);
+                left: calc(50% - 198px / 2);
+              }
+
+              &::after {
+                content: "Create your style";
+                height: 45px;
+                width: 200px;
+                position: absolute;
+                top: calc(50% - 45px / 2);
+                left: calc(50% - 200px / 2);
+                border-radius: 30px;
+                background-color: white;
+                display: inline-block;
+                text-align: center;
+                font-size: 18px;
+                border-radius: 30px;
+                color: black;
+                font-weight: 600;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all 250ms linear;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(100%, 50%, flex, transparent);
+            overflow: hidden;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            > img:nth-of-type(1) {
+              height: 100%;
+              transform: translateX(12%);
+            }
+            > img:nth-last-of-type(1) {
+              height: 100%;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            }
+          }
+        }
         // Container number 10
         > div.cont-10 {
           @include constProperties($width-3, 520px, flex, transparent);
@@ -6363,6 +7013,183 @@
           }
         }
 
+        // Container number 13
+        > div.cont-13 {
+          @include constProperties($width-3, 550px, flex, transparent);
+          flex-flow: row nowrap;
+          justify-content: space-around;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+
+          > div.first {
+            @include constProperties(50%, 100%, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            overflow: hidden;
+
+            > img:nth-of-type(1) {
+              width: 100px;
+            }
+            > img:nth-of-type(2) {
+              width: 100%;
+            }
+            > span {
+              font-size: 18.5px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > div {
+              margin-bottom: 15px;
+              > a {
+                color: $blue;
+                font-size: 16.5px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > i {
+                  font-size: 12px;
+                  color: $lightBlue;
+                  padding-right: 15px;
+                }
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(50%, 100%, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            overflow: hidden;
+
+            > h1 {
+              padding-top: 30px;
+              font-size: 35px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+              > i {
+                font-size: 35px;
+                color: black;
+              }
+            }
+            > span {
+              font-size: 19px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > div {
+              > a {
+                color: $blue;
+                font-size: 16.5px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > i {
+                  font-size: 12px;
+                  color: $lightBlue;
+                  padding-right: 15px;
+                }
+              }
+            }
+
+            > div.musicSlider {
+              width: 100%;
+              height: 250px;
+              > div.swiper {
+                width: 100%;
+                height: 100%;
+
+                > div.swiper-wrapper {
+                  width: 100%;
+                  height: 100%;
+                  display: flex;
+                  align-items: center;
+
+                  > div.swiper-slide {
+                    height: 230px;
+                    width: 180px !important;
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: start;
+                    align-items: start;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    background-color: #000000a9;
+
+                    > img {
+                      width: 100%;
+                      height: 80%;
+                      object-fit: cover;
+                    }
+                    > span:nth-of-type(1) {
+                      font-size: 12px;
+                      color: white;
+                      font-weight: 600;
+                      margin-top: 10px;
+                      padding-left: 15px;
+                      white-space: nowrap;
+                    }
+                    > span:nth-of-type(2) {
+                      font-size: 11px;
+                      color: white;
+                      padding-left: 15px;
+                    }
+                    > a {
+                      position: absolute;
+                      top: 60%;
+                      left: 50%;
+                      transform: translate(-50%, -50%);
+                      padding: 8px 16.5px;
+                      background-color: white;
+                      color: black;
+                      font-size: 13px;
+                      font-weight: 600;
+                      border-radius: 15px;
+                      z-index: 5;
+                      opacity: 0;
+                      transition: all 250ms linear;
+
+                      > i {
+                        font-size: 13px;
+                      }
+                    }
+                    > div.cover {
+                      width: 100%;
+                      height: 100%;
+                      background-color: transparent;
+                      position: absolute;
+                      z-index: 1;
+                      transition: all 250ms linear;
+                    }
+
+                    &:hover {
+                      > a {
+                        opacity: 1;
+                        transform: translate(-50%, -30px);
+                      }
+                      > div.cover {
+                        background-color: rgba(0, 0, 0, 0.393);
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
         // Container number 14
         > div.cont-14 {
           @include constProperties($width-3, 520px, flex, transparent);
@@ -6632,7 +7459,6 @@
             }
           }
         }
-        
       }
     }
   } @else if $value==$sm {
@@ -8306,9 +9132,109 @@
           }
         }
 
+        // Container number 9
+        > div.cont-9 {
+          @include constProperties(450px, 650px, flex, $whiteSmoke);
+          flex-flow: column nowrap;
+          justify-content: center;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+
+          > div.first {
+            @include constProperties(100%, 35%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            > h1 {
+              width: 100%;
+              font-size: 30px;
+              color: black;
+              text-align: center;
+              line-height: 35px;
+            }
+            > span {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > a {
+              margin: 15px 0;
+              display: block;
+              width: 200px;
+              height: 50px;
+              border-radius: 30px;
+              position: relative;
+              background-image: linear-gradient(
+                90deg,
+                #fdde5c 0%,
+                #f8ab5e 16.66667%,
+                #f56a62 33.33333%,
+                #a176c8 50%,
+                #759beb 66.66667%,
+                #65beb3 83.33333%,
+                #70db96
+              );
+
+              backdrop-filter: blur(50px);
+              transition: all 250ms linear;
+
+              &:hover::after {
+                color: $blue;
+                height: 44px;
+                width: 193px;
+                top: calc(50% - 44px / 2);
+                left: calc(50% - 193px / 2);
+              }
+
+              &::after {
+                content: "Create your style";
+                height: 45px;
+                width: 195px;
+                position: absolute;
+                top: calc(50% - 45px / 2);
+                left: calc(50% - 195px / 2);
+                border-radius: 30px;
+                background-color: white;
+                display: inline-block;
+                text-align: center;
+                font-size: 18px;
+                border-radius: 30px;
+                color: black;
+                font-weight: 600;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all 250ms linear;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(100%, 50%, flex, transparent);
+            overflow: hidden;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            > img:nth-of-type(1) {
+              height: 100%;
+              transform: translateX(12%);
+            }
+            > img:nth-last-of-type(1) {
+              height: 100%;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            }
+          }
+        }
+
         // Container number 10
         > div.cont-10 {
-          @include constProperties($width, 1100px, flex, transparent);
+          @include constProperties($width, auto, flex, transparent);
           flex-flow: column nowrap;
           justify-content: space-around;
           align-items: center;
@@ -8316,7 +9242,7 @@
           gap: 30px;
 
           > div.first {
-            @include constProperties(400px, 550px, flex, $whiteSmoke);
+            @include constProperties(450px, 600px, flex, $whiteSmoke);
             flex-flow: column nowrap;
             justify-content: start;
             align-items: center;
@@ -8358,7 +9284,7 @@
           }
 
           > div.second {
-            @include constProperties(400px, 550px, flex, $whiteSmoke);
+            @include constProperties(450px, 600px, flex, $whiteSmoke);
             flex-flow: column nowrap;
             justify-content: start;
             align-items: center;
@@ -8423,7 +9349,7 @@
             margin: 30px auto;
             gap: 30px;
             > div.first {
-              @include constProperties(400px, 550px, flex, $whiteSmoke);
+              @include constProperties(450px, 600px, flex, $whiteSmoke);
               flex-flow: column nowrap;
               justify-content: start;
               align-items: center;
@@ -8462,7 +9388,7 @@
             }
 
             > div.second {
-              @include constProperties(400px, 550px, flex, $whiteSmoke);
+              @include constProperties(450px, 600px, flex, $whiteSmoke);
               flex-flow: column nowrap;
               justify-content: start;
               align-items: center;
@@ -8472,7 +9398,7 @@
               background-image: url(../img/airpods__ttl0kjvjhyqq_large.jpg);
               background-repeat: no-repeat;
               background-position: center bottom;
-              background-size: 400px;
+              background-size: 450px;
 
               > h1 {
                 padding-top: 15px;
@@ -8627,10 +9553,9 @@
             }
           }
         }
-
-        // Container number 14
-        > div.cont-14 {
-          @include constProperties($width, 1100px, flex, transparent);
+        // Container number 13
+        > div.cont-13 {
+          @include constProperties($width, auto, flex, transparent);
           flex-flow: column nowrap;
           justify-content: space-around;
           align-items: center;
@@ -8638,7 +9563,183 @@
           gap: 30px;
 
           > div.first {
-            @include constProperties(400px, 500px, flex, $whiteSmoke);
+            @include constProperties(450px, 600px, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            overflow: hidden;
+
+            > img:nth-of-type(1) {
+              width: 100px;
+            }
+            > img:nth-of-type(2) {
+              width: 100%;
+            }
+            > span {
+              font-size: 21px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > div {
+              margin-bottom: 50px;
+              > a {
+                color: $blue;
+                font-size: 18px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > i {
+                  font-size: 12px;
+                  color: $lightBlue;
+                  padding-right: 15px;
+                }
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(450px, 600px, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            overflow: hidden;
+
+            > h1 {
+              padding-top: 30px;
+              font-size: 45px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+              > i {
+                font-size: 45px;
+                color: black;
+              }
+            }
+            > span {
+              font-size: 21px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > div {
+              > a {
+                color: $blue;
+                font-size: 18px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > i {
+                  font-size: 12px;
+                  color: $lightBlue;
+                  padding-right: 15px;
+                }
+              }
+            }
+
+            > div.musicSlider {
+              width: 100%;
+              height: 350px;
+              > div.swiper {
+                width: 100%;
+                height: 100%;
+
+                > div.swiper-wrapper {
+                  width: 100%;
+                  height: 100%;
+                  display: flex;
+                  align-items: center;
+
+                  > div.swiper-slide {
+                    height: 300px;
+                    width: 250px !important;
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: start;
+                    align-items: start;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    background-color: #000000a9;
+
+                    > img {
+                      width: 100%;
+                      height: 80%;
+                      object-fit: cover;
+                    }
+                    > span:nth-of-type(1) {
+                      font-size: 13px;
+                      color: white;
+                      font-weight: 600;
+                      margin-top: 12px;
+                      padding-left: 15px;
+                      white-space: nowrap;
+                    }
+                    > span:nth-of-type(2) {
+                      font-size: 12px;
+                      color: white;
+                      padding-left: 15px;
+                    }
+                    > a {
+                      position: absolute;
+                      top: 60%;
+                      left: 50%;
+                      transform: translate(-50%, -50%);
+                      padding: 8px 16.5px;
+                      background-color: white;
+                      color: black;
+                      font-size: 13px;
+                      font-weight: 600;
+                      border-radius: 15px;
+                      z-index: 5;
+                      opacity: 0;
+                      transition: all 250ms linear;
+
+                      > i {
+                        font-size: 13px;
+                      }
+                    }
+                    > div.cover {
+                      width: 100%;
+                      height: 100%;
+                      background-color: transparent;
+                      position: absolute;
+                      z-index: 1;
+                      transition: all 250ms linear;
+                    }
+
+                    &:hover {
+                      > a {
+                        opacity: 1;
+                        transform: translate(-50%, -30px);
+                      }
+                      > div.cover {
+                        background-color: rgba(0, 0, 0, 0.393);
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        // Container number 14
+        > div.cont-14 {
+          @include constProperties($width, auto, flex, transparent);
+          flex-flow: column nowrap;
+          justify-content: space-around;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+
+          > div.first {
+            @include constProperties(450px, 600px, flex, $whiteSmoke);
             flex-flow: column nowrap;
             justify-content: start;
             align-items: center;
@@ -8680,7 +9781,7 @@
           }
 
           > div.second {
-            @include constProperties(400px, 500px, flex, $whiteSmoke);
+            @include constProperties(450px, 600px, flex, $whiteSmoke);
             flex-flow: column nowrap;
             justify-content: start;
             align-items: center;
@@ -8840,7 +9941,6 @@
             }
           }
 
-          
           > div.more {
             width: 95%;
             padding-bottom: 15px;
@@ -8909,7 +10009,6 @@
             }
           }
         }
-        
       }
     }
   } @else {
@@ -9158,11 +10257,10 @@
           align-items: center;
 
           > div.swiper {
-            width: fit-content;
+            width: 100%;
             > div.swiper-wrapper {
               width: 100%;
               height: 100%;
-
               > div.swiper-slide {
                 width: fit-content;
                 > div {
@@ -9254,7 +10352,7 @@
           @include constProperties($width, 755px, block, black);
 
           > div.first {
-            @include constProperties($width, 45%, flex, transparent);
+            @include constProperties(100%, 45%, flex, transparent);
             flex-flow: column nowrap;
             justify-content: center;
             align-items: center;
@@ -9264,6 +10362,7 @@
               width: 120px;
             }
             > h1 {
+              width: 100%;
               font-size: 30px;
               color: white;
               text-align: center;
@@ -9515,10 +10614,11 @@
           > div.parts {
             width: 90%;
             display: grid;
-            gap: 55px;
+            column-gap: 10%;
+            row-gap: 30px;
             text-align: center;
             justify-content: center;
-            grid-template-columns: repeat(2, auto);
+            grid-template-columns: repeat(2, 45%);
             grid-template-areas:
               "se-device s9-device"
               "se-case-size s9-case-size"
@@ -10312,6 +11412,7 @@
             }
           }
         }
+
         // Container number 5
         > div.cont-5 {
           @include constProperties($width, 500px, flex, $whiteSmoke);
@@ -10500,8 +11601,9 @@
             background-size: contain;
           }
         }
-              // Container number 8
-      > div.cont-8 {
+
+        // Container number 8
+        > div.cont-8 {
           @include constProperties($width, 600px, flex, white);
           flex-flow: column nowrap;
           justify-content: space-around;
@@ -10509,7 +11611,7 @@
           margin: 30px auto;
 
           > div.first {
-            @include constProperties(350px, 50%, flex, transparent);
+            @include constProperties(90%, 50%, flex, transparent);
             flex-flow: column nowrap;
             justify-content: center;
             align-items: center;
@@ -10546,7 +11648,7 @@
           }
 
           > div.second {
-            @include constProperties(350px, 50%, flex, transparent);
+            @include constProperties(90%, 50%, flex, transparent);
             flex-flow: column nowrap;
             justify-content: center;
             align-items: center;
@@ -10583,9 +11685,108 @@
           }
         }
 
-          // Container number 10
+        // Container number 9
+        > div.cont-9 {
+          @include constProperties(90%, 650px, flex, $whiteSmoke);
+          flex-flow: column nowrap;
+          justify-content: center;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+
+          > div.first {
+            @include constProperties(100%, 35%, flex, transparent);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            > h1 {
+              width: 100%;
+              font-size: 30px;
+              color: black;
+              text-align: center;
+              line-height: 35px;
+            }
+            > span {
+              font-size: 20px;
+              color: black;
+              text-align: center;
+              line-height: 25px;
+            }
+            > a {
+              margin: 15px 0;
+              display: block;
+              width: 200px;
+              height: 50px;
+              border-radius: 30px;
+              position: relative;
+              background-image: linear-gradient(
+                90deg,
+                #fdde5c 0%,
+                #f8ab5e 16.66667%,
+                #f56a62 33.33333%,
+                #a176c8 50%,
+                #759beb 66.66667%,
+                #65beb3 83.33333%,
+                #70db96
+              );
+
+              backdrop-filter: blur(50px);
+              transition: all 250ms linear;
+
+              &:hover::after {
+                color: $blue;
+                height: 44px;
+                width: 193px;
+                top: calc(50% - 44px / 2);
+                left: calc(50% - 193px / 2);
+              }
+
+              &::after {
+                content: "Create your style";
+                height: 45px;
+                width: 195px;
+                position: absolute;
+                top: calc(50% - 45px / 2);
+                left: calc(50% - 195px / 2);
+                border-radius: 30px;
+                background-color: white;
+                display: inline-block;
+                text-align: center;
+                font-size: 18px;
+                border-radius: 30px;
+                color: black;
+                font-weight: 600;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all 250ms linear;
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(100%, 50%, flex, transparent);
+            overflow: hidden;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            > img:nth-of-type(1) {
+              height: 100%;
+              transform: translateX(12%);
+            }
+            > img:nth-last-of-type(1) {
+              height: 100%;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            }
+          }
+        }
+        // Container number 10
         > div.cont-10 {
-          @include constProperties($width, 1100px, flex, transparent);
+          @include constProperties(100%, auto, flex, transparent);
           flex-flow: column nowrap;
           justify-content: space-around;
           align-items: center;
@@ -10593,7 +11794,7 @@
           gap: 30px;
 
           > div.first {
-            @include constProperties(400px, 550px, flex, $whiteSmoke);
+            @include constProperties(90%, 550px, flex, $whiteSmoke);
             flex-flow: column nowrap;
             justify-content: start;
             align-items: center;
@@ -10607,7 +11808,6 @@
 
             > h1 {
               font-size: 30px;
-              width: 500px;
               color: black;
               text-align: center;
               line-height: 30px;
@@ -10635,7 +11835,7 @@
           }
 
           > div.second {
-            @include constProperties(400px, 550px, flex, $whiteSmoke);
+            @include constProperties(90%, 600px, flex, $whiteSmoke);
             flex-flow: column nowrap;
             justify-content: start;
             align-items: center;
@@ -10649,7 +11849,6 @@
 
             > h1 {
               font-size: 30px;
-              width: 500px;
               color: black;
               text-align: center;
               line-height: 30px;
@@ -10686,7 +11885,6 @@
           margin: 30px auto;
           gap: 30px;
           > h1 {
-            width: 300px;
             font-size: 35px;
             margin-top: 100px;
             color: black;
@@ -10699,18 +11897,18 @@
             align-items: center;
             margin: 30px auto;
             gap: 30px;
+            overflow: hidden;
+
             > div.first {
-              @include constProperties(400px, 550px, flex, $whiteSmoke);
+              @include constProperties(90%, 600px, flex, $whiteSmoke);
               flex-flow: column nowrap;
               justify-content: start;
               align-items: center;
               gap: 15px;
-              overflow: hidden;
               padding-top: 50px;
 
               > h1 {
                 padding-top: 15px;
-                width: 350px;
                 font-size: 30px;
                 color: black;
                 text-align: center;
@@ -10734,12 +11932,14 @@
 
               > img {
                 padding-top: 65px;
-                width: 450px;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
               }
             }
 
             > div.second {
-              @include constProperties(400px, 550px, flex, $whiteSmoke);
+              @include constProperties(90%, 600px, flex, $whiteSmoke);
               flex-flow: column nowrap;
               justify-content: start;
               align-items: center;
@@ -10753,7 +11953,6 @@
 
               > h1 {
                 padding-top: 15px;
-                width: 190px;
                 font-size: 30px;
                 color: black;
                 text-align: center;
@@ -10904,6 +12103,184 @@
             }
           }
         }
+
+        // Container number 13
+        > div.cont-13 {
+          @include constProperties($width, auto, flex, transparent);
+          flex-flow: column nowrap;
+          justify-content: space-around;
+          align-items: center;
+          margin: 30px auto;
+          gap: 30px;
+
+          > div.first {
+            @include constProperties(90%, 600px, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            overflow: hidden;
+
+            > img:nth-of-type(1) {
+              width: 100px;
+            }
+            > img:nth-of-type(2) {
+              width: 100%;
+            }
+            > span {
+              font-size: 21px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > div {
+              margin-bottom: 50px;
+              > a {
+                color: $blue;
+                font-size: 18px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > i {
+                  font-size: 12px;
+                  color: $lightBlue;
+                  padding-right: 15px;
+                }
+              }
+            }
+          }
+
+          > div.second {
+            @include constProperties(90%, 600px, flex, $whiteSmoke);
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            overflow: hidden;
+
+            > h1 {
+              padding-top: 30px;
+              font-size: 45px;
+              width: 500px;
+              color: black;
+              text-align: center;
+              line-height: 45px;
+              > i {
+                font-size: 45px;
+                color: black;
+              }
+            }
+            > span {
+              font-size: 21px;
+              color: black;
+              text-align: center;
+              line-height: 30px;
+            }
+            > div {
+              > a {
+                color: $blue;
+                font-size: 18px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+
+                > i {
+                  font-size: 12px;
+                  color: $lightBlue;
+                  padding-right: 15px;
+                }
+              }
+            }
+
+            > div.musicSlider {
+              width: 100%;
+              height: 350px;
+              > div.swiper {
+                width: 100%;
+                height: 100%;
+
+                > div.swiper-wrapper {
+                  width: 100%;
+                  height: 100%;
+                  display: flex;
+                  align-items: center;
+
+                  > div.swiper-slide {
+                    height: 300px;
+                    width: 250px !important;
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: start;
+                    align-items: start;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    background-color: #000000a9;
+
+                    > img {
+                      width: 100%;
+                      height: 80%;
+                      object-fit: cover;
+                    }
+                    > span:nth-of-type(1) {
+                      font-size: 13px;
+                      color: white;
+                      font-weight: 600;
+                      margin-top: 12px;
+                      padding-left: 15px;
+                      white-space: nowrap;
+                    }
+                    > span:nth-of-type(2) {
+                      font-size: 12px;
+                      color: white;
+                      padding-left: 15px;
+                    }
+                    > a {
+                      position: absolute;
+                      top: 60%;
+                      left: 50%;
+                      transform: translate(-50%, -50%);
+                      padding: 8px 16.5px;
+                      background-color: white;
+                      color: black;
+                      font-size: 13px;
+                      font-weight: 600;
+                      border-radius: 15px;
+                      z-index: 5;
+                      opacity: 0;
+                      transition: all 250ms linear;
+
+                      > i {
+                        font-size: 13px;
+                      }
+                    }
+                    > div.cover {
+                      width: 100%;
+                      height: 100%;
+                      background-color: transparent;
+                      position: absolute;
+                      z-index: 1;
+                      transition: all 250ms linear;
+                    }
+
+                    &:hover {
+                      > a {
+                        opacity: 1;
+                        transform: translate(-50%, -30px);
+                      }
+                      > div.cover {
+                        background-color: rgba(0, 0, 0, 0.393);
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        // Container number 14
         > div.cont-14 {
           @include constProperties($width, 1100px, flex, transparent);
           flex-flow: column nowrap;
@@ -10913,7 +12290,7 @@
           gap: 30px;
 
           > div.first {
-            @include constProperties(400px, 500px, flex, $whiteSmoke);
+            @include constProperties(90%, 500px, flex, $whiteSmoke);
             flex-flow: column nowrap;
             justify-content: start;
             align-items: center;
@@ -10928,7 +12305,6 @@
             > h1 {
               padding-top: 30px;
               font-size: 30px;
-              width: 500px;
               color: black;
               text-align: center;
               line-height: 45px;
@@ -10955,7 +12331,7 @@
           }
 
           > div.second {
-            @include constProperties(400px, 500px, flex, $whiteSmoke);
+            @include constProperties(90%, 500px, flex, $whiteSmoke);
             flex-flow: column nowrap;
             justify-content: start;
             align-items: center;
@@ -10970,7 +12346,6 @@
             > h1 {
               padding-top: 30px;
               font-size: 30px;
-              width: 500px;
               color: black;
               text-align: center;
               line-height: 45px;
@@ -10996,7 +12371,6 @@
             }
           }
         }
-
 
         // Footer
         > div.footer {
@@ -11184,7 +12558,6 @@
             }
           }
         }
-        
       }
     }
   }
@@ -11213,4 +12586,45 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+custumize screenshots .musicSwiper .swiper-slide {
+  text-align: center;
+  position: relative;
+  border-radius: 8px;
+  opacity: 0.3;
+  border: 2px solid #eff1f5;
+}
+
+.musicSwiper .swiper-slide img {
+  border-radius: 8px;
+}
+
+.musicSwiper .swiper-slide.swiper-slide-active {
+  transform: scale(1.1);
+  box-shadow: 0 5px 20px #343a401a;
+  opacity: 1;
+}
+
+.musicSwiper .swiper-slide.swiper-slide-prev,
+.musicSwiper .swiper-slide.swiper-slide-next {
+  opacity: 0.8;
+}
+
+.musicSwiper .swiper-pagination {
+  bottom: -30px;
+}
+
+.musicSwiper .swiper-pagination .swiper-pagination-bullet {
+  background-color: #1f61eb;
+  vertical-align: middle;
+}
+
+.musicSwiper
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  height: 12px;
+  width: 12px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 1px #1f61eb;
 }
